@@ -1,0 +1,303 @@
+{
+  "name": "easyTravel - Operations (Lab 1.3)",
+  "type": "dashboard",
+  "content": {
+    "version": 21,
+    "variables": [
+      {
+        "version": 2,
+        "key": "Service",
+        "type": "query",
+        "visible": true,
+        "editable": true,
+        "multiple": false,
+        "input": "timeseries r = sum(dt.service.request.count), by: {dt.service.name}\n| fields dt.service.name\n| sort dt.service.name asc"
+      }
+    ],
+    "tiles": {
+      "0": {
+        "type": "markdown",
+        "content": "# easyTravel operations\nTop row: is anything wrong now? Middle: since when, and where? Bottom: detail for the service picked at the top."
+      },
+      "1": {
+        "type": "data",
+        "title": "Bookings per minute",
+        "query": "timeseries r = sum(dt.service.request.count, rate: 1m), filter: {dt.service.name == \"BookingService\"}\n| fieldsAdd requests_per_min = arrayAvg(r)\n| fields requests_per_min, r",
+        "visualization": "singleValue",
+        "visualizationSettings": {},
+        "querySettings": {}
+      },
+      "2": {
+        "type": "data",
+        "title": "Failure rate, all services (%)",
+        "query": "timeseries {r = sum(dt.service.request.count), f = sum(dt.service.request.failure_count)}\n| fieldsAdd failure_rate_pct = arraySum(f) * 100.0 / arraySum(r)\n| fields failure_rate_pct",
+        "visualization": "singleValue",
+        "visualizationSettings": {
+          "thresholds": [
+            {
+              "id": 1,
+              "field": "",
+              "title": "",
+              "isEnabled": true,
+              "rules": [
+                {
+                  "id": 0,
+                  "color": {
+                    "Default": "var(--dt-colors-charts-status-ideal-default, #2f6862)"
+                  },
+                  "comparator": ">=",
+                  "label": "OK",
+                  "value": 0
+                },
+                {
+                  "id": 1,
+                  "color": {
+                    "Default": "var(--dt-colors-charts-status-warning-default, #eea53c)"
+                  },
+                  "comparator": ">=",
+                  "label": "Warning",
+                  "value": 1
+                },
+                {
+                  "id": 2,
+                  "color": {
+                    "Default": "var(--dt-colors-charts-status-critical-default, #c62239)"
+                  },
+                  "comparator": ">=",
+                  "label": "Critical",
+                  "value": 5
+                }
+              ]
+            }
+          ]
+        },
+        "querySettings": {}
+      },
+      "3": {
+        "type": "data",
+        "title": "Active problems",
+        "query": "fetch dt.davis.problems\n| filter not(dt.davis.is_duplicate) and event.status == \"ACTIVE\"\n| summarize active_problems = count()",
+        "visualization": "singleValue",
+        "visualizationSettings": {},
+        "querySettings": {}
+      },
+      "4": {
+        "type": "data",
+        "title": "p95 response time by service (ms)",
+        "query": "timeseries p95 = percentile(dt.service.request.response_time, 95), by: {dt.service.name}\n| fieldsAdd p95_ms = p95[] / 1000\n| fieldsRemove p95",
+        "visualization": "lineChart",
+        "visualizationSettings": {},
+        "querySettings": {}
+      },
+      "5": {
+        "type": "data",
+        "title": "Failure rate by service (%)",
+        "query": "timeseries {r = sum(dt.service.request.count), f = sum(dt.service.request.failure_count)}, by: {dt.service.name}\n| fieldsAdd failure_rate_pct = f[] * 100.0 / r[]\n| fieldsRemove r, f",
+        "visualization": "lineChart",
+        "visualizationSettings": {
+          "thresholds": [
+            {
+              "id": 1,
+              "field": "",
+              "title": "",
+              "isEnabled": true,
+              "rules": [
+                {
+                  "id": 0,
+                  "color": {
+                    "Default": "var(--dt-colors-charts-status-ideal-default, #2f6862)"
+                  },
+                  "comparator": ">=",
+                  "label": "OK",
+                  "value": 0
+                },
+                {
+                  "id": 1,
+                  "color": {
+                    "Default": "var(--dt-colors-charts-status-warning-default, #eea53c)"
+                  },
+                  "comparator": ">=",
+                  "label": "Warning",
+                  "value": 1
+                },
+                {
+                  "id": 2,
+                  "color": {
+                    "Default": "var(--dt-colors-charts-status-critical-default, #c62239)"
+                  },
+                  "comparator": ">=",
+                  "label": "Critical",
+                  "value": 5
+                }
+              ]
+            }
+          ]
+        },
+        "querySettings": {}
+      },
+      "6": {
+        "type": "data",
+        "title": "Requests per minute by service",
+        "query": "timeseries requests_per_min = sum(dt.service.request.count, rate: 1m), by: {dt.service.name}",
+        "visualization": "barChart",
+        "visualizationSettings": {},
+        "querySettings": {}
+      },
+      "7": {
+        "type": "data",
+        "title": "Response time distribution (selected service)",
+        "query": "fetch spans\n| filter request.is_root_span == true and dt.service.name == $Service\n| summarize requests = count(), by: {minute = toString(bin(start_time, 1m)), latency = range(duration, 100ms)}",
+        "visualization": "heatmap",
+        "visualizationSettings": {},
+        "querySettings": {}
+      },
+      "8": {
+        "type": "data",
+        "title": "Endpoints by p95 (selected service)",
+        "query": "fetch spans\n| filter request.is_root_span == true and dt.service.name == $Service\n| summarize {requests = count(), failures = countIf(request.is_failed == true), p95 = percentile(duration, 95)}, by: {endpoint.name}\n| sort p95 desc",
+        "visualization": "table",
+        "visualizationSettings": {},
+        "querySettings": {}
+      },
+      "9": {
+        "type": "data",
+        "title": "Host CPU usage now (%)",
+        "query": "timeseries cpu = avg(dt.host.cpu.usage), by: {dt.smartscape.host}\n| fieldsAdd host = getNodeName(dt.smartscape.host), cpu_now = arrayLast(cpu)\n| fields host, cpu_now",
+        "visualization": "honeycomb",
+        "visualizationSettings": {
+          "thresholds": [
+            {
+              "id": 1,
+              "field": "",
+              "title": "",
+              "isEnabled": true,
+              "rules": [
+                {
+                  "id": 0,
+                  "color": {
+                    "Default": "var(--dt-colors-charts-status-ideal-default, #2f6862)"
+                  },
+                  "comparator": ">=",
+                  "label": "OK",
+                  "value": 0
+                },
+                {
+                  "id": 1,
+                  "color": {
+                    "Default": "var(--dt-colors-charts-status-warning-default, #eea53c)"
+                  },
+                  "comparator": ">=",
+                  "label": "Warning",
+                  "value": 80
+                },
+                {
+                  "id": 2,
+                  "color": {
+                    "Default": "var(--dt-colors-charts-status-critical-default, #c62239)"
+                  },
+                  "comparator": ">=",
+                  "label": "Critical",
+                  "value": 95
+                }
+              ]
+            }
+          ]
+        },
+        "querySettings": {}
+      },
+      "10": {
+        "type": "data",
+        "title": "Lab VM memory used (%)",
+        "query": "timeseries m = avg(dt.host.memory.usage)\n| fields memory_used_pct = arrayLast(m)",
+        "visualization": "gauge",
+        "visualizationSettings": {
+          "minValue": 0,
+          "maxValue": 100
+        },
+        "querySettings": {}
+      },
+      "11": {
+        "type": "data",
+        "title": "Problems in the time frame",
+        "query": "fetch dt.davis.problems\n| filter not(dt.davis.is_duplicate)\n| fields event.start, display_id, event.name, event.category, event.status\n| sort event.start desc",
+        "visualization": "table",
+        "visualizationSettings": {},
+        "querySettings": {}
+      }
+    },
+    "layouts": {
+      "0": {
+        "x": 0,
+        "y": 0,
+        "w": 24,
+        "h": 2
+      },
+      "1": {
+        "x": 0,
+        "y": 2,
+        "w": 8,
+        "h": 4
+      },
+      "2": {
+        "x": 8,
+        "y": 2,
+        "w": 8,
+        "h": 4
+      },
+      "3": {
+        "x": 16,
+        "y": 2,
+        "w": 8,
+        "h": 4
+      },
+      "4": {
+        "x": 0,
+        "y": 6,
+        "w": 12,
+        "h": 6
+      },
+      "5": {
+        "x": 12,
+        "y": 6,
+        "w": 12,
+        "h": 6
+      },
+      "6": {
+        "x": 0,
+        "y": 12,
+        "w": 24,
+        "h": 5
+      },
+      "7": {
+        "x": 0,
+        "y": 17,
+        "w": 12,
+        "h": 7
+      },
+      "8": {
+        "x": 12,
+        "y": 17,
+        "w": 12,
+        "h": 7
+      },
+      "9": {
+        "x": 0,
+        "y": 24,
+        "w": 8,
+        "h": 5
+      },
+      "10": {
+        "x": 8,
+        "y": 24,
+        "w": 6,
+        "h": 5
+      },
+      "11": {
+        "x": 14,
+        "y": 24,
+        "w": 10,
+        "h": 5
+      }
+    }
+  }
+}

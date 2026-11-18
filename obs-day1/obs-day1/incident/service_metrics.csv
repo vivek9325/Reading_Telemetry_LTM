@@ -1,0 +1,901 @@
+timestamp,service,endpoint,requests,failures,p50_ms,p95_ms,p99_ms
+2026-11-12T12:00:00Z,BookingService,storeBooking,665,0,356.4,477.5,565.0
+2026-11-12T12:00:00Z,CreditCardValidation,validateCreditCard,665,0,313.8,432.7,519.8
+2026-11-12T12:00:00Z,JourneyService,getJourneyById,665,0,23.8,34.8,42.2
+2026-11-12T12:00:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,665,0,367.3,488.8,573.0
+2026-11-12T12:00:00Z,easyTravel Customer Frontend,/orange.jsf,5293,5,37.9,69.1,83.5
+2026-11-12T12:01:00Z,BookingService,storeBooking,617,1,352.6,490.3,546.2
+2026-11-12T12:01:00Z,CreditCardValidation,validateCreditCard,617,1,310.3,441.7,506.2
+2026-11-12T12:01:00Z,JourneyService,getJourneyById,617,0,24.1,37.0,41.6
+2026-11-12T12:01:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,617,1,363.6,502.4,558.6
+2026-11-12T12:01:00Z,easyTravel Customer Frontend,/orange.jsf,5465,5,36.3,65.7,89.1
+2026-11-12T12:02:00Z,BookingService,storeBooking,593,1,353.1,480.4,553.2
+2026-11-12T12:02:00Z,CreditCardValidation,validateCreditCard,593,1,310.4,438.1,507.0
+2026-11-12T12:02:00Z,JourneyService,getJourneyById,593,0,24.4,36.1,42.5
+2026-11-12T12:02:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,593,1,365.7,492.2,563.2
+2026-11-12T12:02:00Z,easyTravel Customer Frontend,/orange.jsf,5404,2,38.9,63.9,82.7
+2026-11-12T12:03:00Z,BookingService,storeBooking,607,1,357.3,483.3,521.5
+2026-11-12T12:03:00Z,CreditCardValidation,validateCreditCard,607,1,314.1,441.9,490.5
+2026-11-12T12:03:00Z,JourneyService,getJourneyById,607,0,23.9,37.4,46.1
+2026-11-12T12:03:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,607,1,369.1,494.0,533.3
+2026-11-12T12:03:00Z,easyTravel Customer Frontend,/orange.jsf,5493,5,38.1,67.9,86.1
+2026-11-12T12:04:00Z,BookingService,storeBooking,616,0,350.6,487.0,568.9
+2026-11-12T12:04:00Z,CreditCardValidation,validateCreditCard,616,0,309.7,443.6,525.2
+2026-11-12T12:04:00Z,JourneyService,getJourneyById,616,0,23.9,36.8,42.1
+2026-11-12T12:04:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,616,0,361.7,498.4,581.1
+2026-11-12T12:04:00Z,easyTravel Customer Frontend,/orange.jsf,5582,2,37.5,65.8,76.5
+2026-11-12T12:05:00Z,BookingService,storeBooking,667,0,355.3,479.5,522.2
+2026-11-12T12:05:00Z,CreditCardValidation,validateCreditCard,667,0,313.1,439.8,482.1
+2026-11-12T12:05:00Z,JourneyService,getJourneyById,667,0,24.3,36.5,44.8
+2026-11-12T12:05:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,667,0,367.0,490.6,533.7
+2026-11-12T12:05:00Z,easyTravel Customer Frontend,/orange.jsf,5606,5,38.3,68.4,82.6
+2026-11-12T12:06:00Z,BookingService,storeBooking,656,0,361.3,493.3,552.6
+2026-11-12T12:06:00Z,CreditCardValidation,validateCreditCard,656,0,318.4,448.8,516.1
+2026-11-12T12:06:00Z,JourneyService,getJourneyById,656,0,24.2,36.5,43.1
+2026-11-12T12:06:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,656,0,372.3,503.8,564.4
+2026-11-12T12:06:00Z,easyTravel Customer Frontend,/orange.jsf,5692,6,38.4,62.8,74.6
+2026-11-12T12:07:00Z,BookingService,storeBooking,660,1,350.4,492.8,588.1
+2026-11-12T12:07:00Z,CreditCardValidation,validateCreditCard,660,1,305.3,449.4,542.0
+2026-11-12T12:07:00Z,JourneyService,getJourneyById,660,0,24.3,36.5,42.5
+2026-11-12T12:07:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,660,1,360.3,504.0,600.4
+2026-11-12T12:07:00Z,easyTravel Customer Frontend,/orange.jsf,5848,2,38.6,68.7,82.8
+2026-11-12T12:08:00Z,BookingService,storeBooking,660,1,354.9,490.4,570.3
+2026-11-12T12:08:00Z,CreditCardValidation,validateCreditCard,660,1,310.8,448.8,528.4
+2026-11-12T12:08:00Z,JourneyService,getJourneyById,660,0,23.8,35.2,42.3
+2026-11-12T12:08:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,660,1,366.0,500.8,579.6
+2026-11-12T12:08:00Z,easyTravel Customer Frontend,/orange.jsf,5752,6,37.3,65.1,81.3
+2026-11-12T12:09:00Z,BookingService,storeBooking,713,0,353.2,494.5,548.1
+2026-11-12T12:09:00Z,CreditCardValidation,validateCreditCard,713,0,311.9,451.4,510.2
+2026-11-12T12:09:00Z,JourneyService,getJourneyById,713,0,24.2,36.6,40.9
+2026-11-12T12:09:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,713,0,365.2,507.1,556.9
+2026-11-12T12:09:00Z,easyTravel Customer Frontend,/orange.jsf,5950,2,38.5,66.6,82.4
+2026-11-12T12:10:00Z,BookingService,storeBooking,656,0,355.9,491.2,566.1
+2026-11-12T12:10:00Z,CreditCardValidation,validateCreditCard,656,0,312.7,446.2,521.1
+2026-11-12T12:10:00Z,JourneyService,getJourneyById,656,0,23.8,37.3,43.6
+2026-11-12T12:10:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,656,0,367.5,503.3,577.9
+2026-11-12T12:10:00Z,easyTravel Customer Frontend,/orange.jsf,6171,1,37.4,70.2,89.7
+2026-11-12T12:11:00Z,BookingService,storeBooking,665,1,356.6,474.3,543.3
+2026-11-12T12:11:00Z,CreditCardValidation,validateCreditCard,665,1,311.0,431.3,510.0
+2026-11-12T12:11:00Z,JourneyService,getJourneyById,665,0,23.9,36.9,46.3
+2026-11-12T12:11:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,665,1,366.6,486.6,551.4
+2026-11-12T12:11:00Z,easyTravel Customer Frontend,/orange.jsf,6082,4,37.9,68.2,92.0
+2026-11-12T12:12:00Z,BookingService,storeBooking,690,0,356.9,478.1,542.5
+2026-11-12T12:12:00Z,CreditCardValidation,validateCreditCard,690,0,314.3,436.1,499.1
+2026-11-12T12:12:00Z,JourneyService,getJourneyById,690,0,23.6,35.6,42.7
+2026-11-12T12:12:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,690,0,368.8,489.3,550.4
+2026-11-12T12:12:00Z,easyTravel Customer Frontend,/orange.jsf,6074,5,38.7,71.1,93.2
+2026-11-12T12:13:00Z,BookingService,storeBooking,736,1,359.6,494.4,566.5
+2026-11-12T12:13:00Z,CreditCardValidation,validateCreditCard,736,1,316.4,452.2,527.9
+2026-11-12T12:13:00Z,JourneyService,getJourneyById,736,0,23.8,35.5,42.7
+2026-11-12T12:13:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,736,1,370.1,505.2,578.0
+2026-11-12T12:13:00Z,easyTravel Customer Frontend,/orange.jsf,6134,5,38.1,69.1,80.8
+2026-11-12T12:14:00Z,BookingService,storeBooking,668,0,354.8,483.8,567.5
+2026-11-12T12:14:00Z,CreditCardValidation,validateCreditCard,668,0,312.6,439.5,528.6
+2026-11-12T12:14:00Z,JourneyService,getJourneyById,668,0,24.2,36.5,43.8
+2026-11-12T12:14:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,668,0,366.5,495.5,575.8
+2026-11-12T12:14:00Z,easyTravel Customer Frontend,/orange.jsf,6283,5,38.5,68.4,82.7
+2026-11-12T12:15:00Z,BookingService,storeBooking,725,0,352.3,474.1,555.1
+2026-11-12T12:15:00Z,CreditCardValidation,validateCreditCard,725,0,310.2,428.8,511.5
+2026-11-12T12:15:00Z,JourneyService,getJourneyById,725,0,24.2,36.3,43.0
+2026-11-12T12:15:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,725,0,363.8,484.8,568.7
+2026-11-12T12:15:00Z,easyTravel Customer Frontend,/orange.jsf,6312,3,36.7,64.7,79.5
+2026-11-12T12:16:00Z,BookingService,storeBooking,730,0,353.6,484.8,560.0
+2026-11-12T12:16:00Z,CreditCardValidation,validateCreditCard,730,0,312.4,442.9,498.6
+2026-11-12T12:16:00Z,JourneyService,getJourneyById,730,0,23.7,36.7,44.6
+2026-11-12T12:16:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,730,0,365.1,496.0,569.4
+2026-11-12T12:16:00Z,easyTravel Customer Frontend,/orange.jsf,6329,3,39.3,71.0,86.4
+2026-11-12T12:17:00Z,BookingService,storeBooking,661,1,353.3,486.4,567.1
+2026-11-12T12:17:00Z,CreditCardValidation,validateCreditCard,661,1,311.0,443.5,528.4
+2026-11-12T12:17:00Z,JourneyService,getJourneyById,661,0,24.1,36.2,41.4
+2026-11-12T12:17:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,661,1,365.1,497.1,580.3
+2026-11-12T12:17:00Z,easyTravel Customer Frontend,/orange.jsf,6288,1,37.1,68.3,89.6
+2026-11-12T12:18:00Z,BookingService,storeBooking,779,0,349.2,497.0,563.9
+2026-11-12T12:18:00Z,CreditCardValidation,validateCreditCard,779,0,305.6,449.9,523.2
+2026-11-12T12:18:00Z,JourneyService,getJourneyById,779,0,23.7,35.3,43.6
+2026-11-12T12:18:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,779,0,359.2,507.6,573.8
+2026-11-12T12:18:00Z,easyTravel Customer Frontend,/orange.jsf,6442,4,36.7,67.0,83.6
+2026-11-12T12:19:00Z,BookingService,storeBooking,728,0,358.0,479.4,574.1
+2026-11-12T12:19:00Z,CreditCardValidation,validateCreditCard,728,0,313.6,436.9,523.4
+2026-11-12T12:19:00Z,JourneyService,getJourneyById,728,0,23.9,36.0,43.4
+2026-11-12T12:19:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,728,0,369.3,489.5,585.1
+2026-11-12T12:19:00Z,easyTravel Customer Frontend,/orange.jsf,6528,4,38.1,64.9,71.6
+2026-11-12T12:20:00Z,BookingService,storeBooking,748,1,353.5,479.9,548.6
+2026-11-12T12:20:00Z,CreditCardValidation,validateCreditCard,748,1,311.5,439.6,509.0
+2026-11-12T12:20:00Z,JourneyService,getJourneyById,748,0,23.7,34.7,39.5
+2026-11-12T12:20:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,748,1,364.7,492.4,561.9
+2026-11-12T12:20:00Z,easyTravel Customer Frontend,/orange.jsf,6508,7,37.6,68.0,88.7
+2026-11-12T12:21:00Z,BookingService,storeBooking,767,1,353.4,485.7,558.0
+2026-11-12T12:21:00Z,CreditCardValidation,validateCreditCard,767,1,309.3,442.9,515.3
+2026-11-12T12:21:00Z,JourneyService,getJourneyById,767,0,23.5,36.1,43.7
+2026-11-12T12:21:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,767,1,363.4,496.3,568.1
+2026-11-12T12:21:00Z,easyTravel Customer Frontend,/orange.jsf,6499,5,37.6,61.7,76.6
+2026-11-12T12:22:00Z,BookingService,storeBooking,705,0,358.2,508.8,582.9
+2026-11-12T12:22:00Z,CreditCardValidation,validateCreditCard,705,0,315.7,462.3,534.1
+2026-11-12T12:22:00Z,JourneyService,getJourneyById,705,0,23.8,36.3,41.9
+2026-11-12T12:22:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,705,0,369.4,518.0,594.9
+2026-11-12T12:22:00Z,easyTravel Customer Frontend,/orange.jsf,6589,7,39.3,70.1,85.3
+2026-11-12T12:23:00Z,BookingService,storeBooking,819,0,358.4,485.2,557.4
+2026-11-12T12:23:00Z,CreditCardValidation,validateCreditCard,819,0,314.2,443.3,514.0
+2026-11-12T12:23:00Z,JourneyService,getJourneyById,819,0,24.2,37.3,45.4
+2026-11-12T12:23:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,819,0,368.7,495.7,569.8
+2026-11-12T12:23:00Z,easyTravel Customer Frontend,/orange.jsf,6661,2,37.6,65.0,78.1
+2026-11-12T12:24:00Z,BookingService,storeBooking,728,0,356.2,484.8,562.6
+2026-11-12T12:24:00Z,CreditCardValidation,validateCreditCard,728,0,313.8,443.9,517.9
+2026-11-12T12:24:00Z,JourneyService,getJourneyById,728,0,23.9,35.0,42.5
+2026-11-12T12:24:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,728,0,368.2,493.2,572.9
+2026-11-12T12:24:00Z,easyTravel Customer Frontend,/orange.jsf,6844,5,39.2,64.4,75.7
+2026-11-12T12:25:00Z,BookingService,storeBooking,722,0,350.8,469.8,531.1
+2026-11-12T12:25:00Z,CreditCardValidation,validateCreditCard,722,0,307.7,425.7,484.8
+2026-11-12T12:25:00Z,JourneyService,getJourneyById,722,0,24.5,36.2,45.3
+2026-11-12T12:25:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,722,0,360.8,480.2,541.8
+2026-11-12T12:25:00Z,easyTravel Customer Frontend,/orange.jsf,6879,6,39.0,67.4,80.0
+2026-11-12T12:26:00Z,BookingService,storeBooking,784,0,352.5,481.1,549.6
+2026-11-12T12:26:00Z,CreditCardValidation,validateCreditCard,784,0,311.9,437.2,504.6
+2026-11-12T12:26:00Z,JourneyService,getJourneyById,784,0,23.9,36.1,41.9
+2026-11-12T12:26:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,784,0,363.8,491.5,562.7
+2026-11-12T12:26:00Z,easyTravel Customer Frontend,/orange.jsf,6851,4,38.6,64.5,75.8
+2026-11-12T12:27:00Z,BookingService,storeBooking,763,1,358.7,499.4,568.8
+2026-11-12T12:27:00Z,CreditCardValidation,validateCreditCard,763,1,313.8,458.6,525.4
+2026-11-12T12:27:00Z,JourneyService,getJourneyById,763,0,23.9,35.9,39.8
+2026-11-12T12:27:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,763,1,369.8,510.7,579.8
+2026-11-12T12:27:00Z,easyTravel Customer Frontend,/orange.jsf,6906,3,39.7,68.0,102.0
+2026-11-12T12:28:00Z,BookingService,storeBooking,776,3,352.1,483.6,564.6
+2026-11-12T12:28:00Z,CreditCardValidation,validateCreditCard,776,3,306.6,439.1,532.4
+2026-11-12T12:28:00Z,JourneyService,getJourneyById,776,0,23.9,37.0,41.9
+2026-11-12T12:28:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,776,3,363.1,493.0,576.1
+2026-11-12T12:28:00Z,easyTravel Customer Frontend,/orange.jsf,6941,6,37.9,68.0,85.8
+2026-11-12T12:29:00Z,BookingService,storeBooking,772,1,359.3,488.8,584.5
+2026-11-12T12:29:00Z,CreditCardValidation,validateCreditCard,772,1,314.3,445.0,543.5
+2026-11-12T12:29:00Z,JourneyService,getJourneyById,772,0,24.3,36.3,43.3
+2026-11-12T12:29:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,772,1,369.0,500.7,593.1
+2026-11-12T12:29:00Z,easyTravel Customer Frontend,/orange.jsf,7065,5,38.6,70.1,83.2
+2026-11-12T12:30:00Z,BookingService,storeBooking,819,0,352.4,484.9,550.9
+2026-11-12T12:30:00Z,CreditCardValidation,validateCreditCard,819,0,310.1,441.0,499.4
+2026-11-12T12:30:00Z,JourneyService,getJourneyById,819,0,23.9,35.9,45.1
+2026-11-12T12:30:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,819,0,364.0,495.1,561.9
+2026-11-12T12:30:00Z,easyTravel Customer Frontend,/orange.jsf,7039,6,37.6,70.9,93.9
+2026-11-12T12:31:00Z,BookingService,storeBooking,838,2,355.6,493.8,551.1
+2026-11-12T12:31:00Z,CreditCardValidation,validateCreditCard,838,2,313.1,449.8,511.0
+2026-11-12T12:31:00Z,JourneyService,getJourneyById,838,0,23.9,36.0,44.6
+2026-11-12T12:31:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,838,2,366.3,507.0,563.0
+2026-11-12T12:31:00Z,easyTravel Customer Frontend,/orange.jsf,7176,4,38.0,63.7,78.5
+2026-11-12T12:32:00Z,BookingService,storeBooking,812,1,350.6,500.9,546.1
+2026-11-12T12:32:00Z,CreditCardValidation,validateCreditCard,812,1,309.4,457.5,499.9
+2026-11-12T12:32:00Z,JourneyService,getJourneyById,812,0,23.5,36.7,42.7
+2026-11-12T12:32:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,812,1,362.0,512.1,558.9
+2026-11-12T12:32:00Z,easyTravel Customer Frontend,/orange.jsf,7208,5,37.4,63.0,79.2
+2026-11-12T12:33:00Z,BookingService,storeBooking,787,0,351.1,489.9,548.4
+2026-11-12T12:33:00Z,CreditCardValidation,validateCreditCard,787,0,309.4,444.3,508.0
+2026-11-12T12:33:00Z,JourneyService,getJourneyById,787,0,23.4,36.4,42.2
+2026-11-12T12:33:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,787,0,362.5,503.2,558.2
+2026-11-12T12:33:00Z,easyTravel Customer Frontend,/orange.jsf,7284,6,37.6,68.2,85.9
+2026-11-12T12:34:00Z,BookingService,storeBooking,791,0,361.7,488.5,532.2
+2026-11-12T12:34:00Z,CreditCardValidation,validateCreditCard,791,0,318.9,447.9,498.1
+2026-11-12T12:34:00Z,JourneyService,getJourneyById,791,0,24.3,36.6,44.3
+2026-11-12T12:34:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,791,0,372.5,500.2,543.9
+2026-11-12T12:34:00Z,easyTravel Customer Frontend,/orange.jsf,7421,6,38.4,65.6,80.2
+2026-11-12T12:35:00Z,BookingService,storeBooking,784,0,356.4,491.6,549.0
+2026-11-12T12:35:00Z,CreditCardValidation,validateCreditCard,784,0,313.8,446.8,497.4
+2026-11-12T12:35:00Z,JourneyService,getJourneyById,784,0,24.0,35.8,41.8
+2026-11-12T12:35:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,784,0,367.6,500.9,558.6
+2026-11-12T12:35:00Z,easyTravel Customer Frontend,/orange.jsf,7276,3,38.2,64.3,81.0
+2026-11-12T12:36:00Z,BookingService,storeBooking,835,2,355.8,482.2,548.8
+2026-11-12T12:36:00Z,CreditCardValidation,validateCreditCard,835,2,311.2,442.7,507.7
+2026-11-12T12:36:00Z,JourneyService,getJourneyById,835,0,23.7,36.5,43.5
+2026-11-12T12:36:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,835,2,365.7,493.7,559.3
+2026-11-12T12:36:00Z,easyTravel Customer Frontend,/orange.jsf,7435,5,37.9,67.4,82.9
+2026-11-12T12:37:00Z,BookingService,storeBooking,853,0,355.1,484.0,564.0
+2026-11-12T12:37:00Z,CreditCardValidation,validateCreditCard,853,0,310.7,441.4,522.5
+2026-11-12T12:37:00Z,JourneyService,getJourneyById,853,0,24.1,36.5,45.2
+2026-11-12T12:37:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,853,0,365.6,496.7,574.7
+2026-11-12T12:37:00Z,easyTravel Customer Frontend,/orange.jsf,7598,4,37.5,68.9,91.0
+2026-11-12T12:38:00Z,BookingService,storeBooking,822,0,351.5,480.1,542.4
+2026-11-12T12:38:00Z,CreditCardValidation,validateCreditCard,822,0,308.1,437.8,505.1
+2026-11-12T12:38:00Z,JourneyService,getJourneyById,822,0,24.2,35.6,41.1
+2026-11-12T12:38:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,822,0,362.6,490.2,552.5
+2026-11-12T12:38:00Z,easyTravel Customer Frontend,/orange.jsf,7473,4,39.7,69.2,79.1
+2026-11-12T12:39:00Z,BookingService,storeBooking,854,0,353.1,484.3,566.4
+2026-11-12T12:39:00Z,CreditCardValidation,validateCreditCard,854,0,309.9,441.0,515.0
+2026-11-12T12:39:00Z,JourneyService,getJourneyById,854,0,24.2,35.9,41.4
+2026-11-12T12:39:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,854,0,364.5,494.7,576.6
+2026-11-12T12:39:00Z,easyTravel Customer Frontend,/orange.jsf,7715,4,39.4,65.7,89.5
+2026-11-12T12:40:00Z,BookingService,storeBooking,855,0,357.0,482.0,554.1
+2026-11-12T12:40:00Z,CreditCardValidation,validateCreditCard,855,0,313.6,438.8,515.7
+2026-11-12T12:40:00Z,JourneyService,getJourneyById,855,0,23.6,36.9,43.2
+2026-11-12T12:40:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,855,0,368.0,492.1,562.5
+2026-11-12T12:40:00Z,easyTravel Customer Frontend,/orange.jsf,7753,6,36.2,67.2,83.9
+2026-11-12T12:41:00Z,BookingService,storeBooking,834,1,354.7,486.9,575.3
+2026-11-12T12:41:00Z,CreditCardValidation,validateCreditCard,834,1,311.4,441.1,536.9
+2026-11-12T12:41:00Z,JourneyService,getJourneyById,834,0,24.0,36.1,42.2
+2026-11-12T12:41:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,834,1,366.1,496.3,583.4
+2026-11-12T12:41:00Z,easyTravel Customer Frontend,/orange.jsf,7720,2,37.4,70.3,83.2
+2026-11-12T12:42:00Z,BookingService,storeBooking,855,0,354.3,489.4,547.2
+2026-11-12T12:42:00Z,CreditCardValidation,validateCreditCard,855,0,311.4,442.5,504.7
+2026-11-12T12:42:00Z,JourneyService,getJourneyById,855,0,24.1,36.4,45.3
+2026-11-12T12:42:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,855,0,365.1,499.3,557.7
+2026-11-12T12:42:00Z,easyTravel Customer Frontend,/orange.jsf,7788,4,38.2,67.1,88.7
+2026-11-12T12:43:00Z,BookingService,storeBooking,879,0,357.8,486.8,557.5
+2026-11-12T12:43:00Z,CreditCardValidation,validateCreditCard,879,0,314.3,443.4,513.2
+2026-11-12T12:43:00Z,JourneyService,getJourneyById,879,0,23.9,35.7,42.4
+2026-11-12T12:43:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,879,0,369.5,497.7,565.8
+2026-11-12T12:43:00Z,easyTravel Customer Frontend,/orange.jsf,7922,3,38.3,71.0,92.2
+2026-11-12T12:44:00Z,BookingService,storeBooking,871,1,354.5,482.9,552.1
+2026-11-12T12:44:00Z,CreditCardValidation,validateCreditCard,871,1,310.9,441.7,514.1
+2026-11-12T12:44:00Z,JourneyService,getJourneyById,871,0,24.1,36.5,45.5
+2026-11-12T12:44:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,871,1,364.8,494.4,566.0
+2026-11-12T12:44:00Z,easyTravel Customer Frontend,/orange.jsf,8058,3,38.4,65.9,82.9
+2026-11-12T12:45:00Z,BookingService,storeBooking,974,0,353.9,496.4,538.8
+2026-11-12T12:45:00Z,CreditCardValidation,validateCreditCard,974,0,311.6,451.5,492.3
+2026-11-12T12:45:00Z,JourneyService,getJourneyById,974,0,23.4,35.7,40.4
+2026-11-12T12:45:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,974,0,365.0,505.9,549.1
+2026-11-12T12:45:00Z,easyTravel Customer Frontend,/orange.jsf,7826,2,37.7,64.3,80.8
+2026-11-12T12:46:00Z,BookingService,storeBooking,927,1,355.6,490.3,566.1
+2026-11-12T12:46:00Z,CreditCardValidation,validateCreditCard,927,1,313.1,445.4,518.9
+2026-11-12T12:46:00Z,JourneyService,getJourneyById,927,0,23.8,35.9,43.7
+2026-11-12T12:46:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,927,1,366.2,502.2,579.3
+2026-11-12T12:46:00Z,easyTravel Customer Frontend,/orange.jsf,7959,4,36.6,65.8,82.5
+2026-11-12T12:47:00Z,BookingService,storeBooking,874,1,357.9,477.8,526.8
+2026-11-12T12:47:00Z,CreditCardValidation,validateCreditCard,874,1,312.5,436.7,482.6
+2026-11-12T12:47:00Z,JourneyService,getJourneyById,874,0,24.7,36.4,44.4
+2026-11-12T12:47:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,874,1,368.1,490.6,540.2
+2026-11-12T12:47:00Z,easyTravel Customer Frontend,/orange.jsf,7896,5,37.0,62.5,81.1
+2026-11-12T12:48:00Z,BookingService,storeBooking,917,1,355.8,491.7,543.2
+2026-11-12T12:48:00Z,CreditCardValidation,validateCreditCard,917,1,312.2,444.8,496.2
+2026-11-12T12:48:00Z,JourneyService,getJourneyById,917,0,24.3,36.8,46.4
+2026-11-12T12:48:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,917,1,365.9,501.8,553.2
+2026-11-12T12:48:00Z,easyTravel Customer Frontend,/orange.jsf,8204,5,37.6,68.5,79.1
+2026-11-12T12:49:00Z,BookingService,storeBooking,913,1,354.1,486.0,557.2
+2026-11-12T12:49:00Z,CreditCardValidation,validateCreditCard,913,1,310.5,441.5,519.2
+2026-11-12T12:49:00Z,JourneyService,getJourneyById,913,0,24.1,35.6,42.2
+2026-11-12T12:49:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,913,1,365.9,494.8,570.0
+2026-11-12T12:49:00Z,easyTravel Customer Frontend,/orange.jsf,8244,8,39.6,68.3,81.7
+2026-11-12T12:50:00Z,BookingService,storeBooking,887,1,359.4,499.5,575.0
+2026-11-12T12:50:00Z,CreditCardValidation,validateCreditCard,887,1,316.0,453.1,533.6
+2026-11-12T12:50:00Z,JourneyService,getJourneyById,887,0,24.1,36.4,42.2
+2026-11-12T12:50:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,887,1,370.7,508.0,583.6
+2026-11-12T12:50:00Z,easyTravel Customer Frontend,/orange.jsf,8096,9,38.4,69.9,87.1
+2026-11-12T12:51:00Z,BookingService,storeBooking,935,4,352.6,482.4,567.9
+2026-11-12T12:51:00Z,CreditCardValidation,validateCreditCard,935,4,309.9,442.5,520.6
+2026-11-12T12:51:00Z,JourneyService,getJourneyById,935,0,23.9,36.7,44.8
+2026-11-12T12:51:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,935,4,363.0,493.4,578.7
+2026-11-12T12:51:00Z,easyTravel Customer Frontend,/orange.jsf,8233,2,37.0,64.5,92.4
+2026-11-12T12:52:00Z,BookingService,storeBooking,930,0,355.4,485.0,545.8
+2026-11-12T12:52:00Z,CreditCardValidation,validateCreditCard,930,0,313.2,446.5,501.7
+2026-11-12T12:52:00Z,JourneyService,getJourneyById,930,0,23.6,35.6,43.0
+2026-11-12T12:52:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,930,0,366.5,497.1,554.2
+2026-11-12T12:52:00Z,easyTravel Customer Frontend,/orange.jsf,8161,7,38.0,65.3,75.8
+2026-11-12T12:53:00Z,BookingService,storeBooking,931,0,352.8,481.3,536.4
+2026-11-12T12:53:00Z,CreditCardValidation,validateCreditCard,931,0,309.4,436.3,489.9
+2026-11-12T12:53:00Z,JourneyService,getJourneyById,931,0,24.0,36.2,44.7
+2026-11-12T12:53:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,931,0,363.4,491.9,550.0
+2026-11-12T12:53:00Z,easyTravel Customer Frontend,/orange.jsf,8467,6,38.1,68.6,82.6
+2026-11-12T12:54:00Z,BookingService,storeBooking,920,0,357.3,491.4,547.8
+2026-11-12T12:54:00Z,CreditCardValidation,validateCreditCard,920,0,313.0,448.8,509.7
+2026-11-12T12:54:00Z,JourneyService,getJourneyById,920,0,24.2,36.2,41.2
+2026-11-12T12:54:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,920,0,369.5,502.1,556.3
+2026-11-12T12:54:00Z,easyTravel Customer Frontend,/orange.jsf,8472,5,37.6,63.3,87.9
+2026-11-12T12:55:00Z,BookingService,storeBooking,938,2,355.3,482.5,543.1
+2026-11-12T12:55:00Z,CreditCardValidation,validateCreditCard,938,2,311.5,443.7,504.9
+2026-11-12T12:55:00Z,JourneyService,getJourneyById,938,0,24.5,37.4,44.6
+2026-11-12T12:55:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,938,2,366.3,494.9,553.5
+2026-11-12T12:55:00Z,easyTravel Customer Frontend,/orange.jsf,8590,3,38.6,64.7,76.1
+2026-11-12T12:56:00Z,BookingService,storeBooking,904,1,354.4,493.9,555.8
+2026-11-12T12:56:00Z,CreditCardValidation,validateCreditCard,904,1,311.9,456.3,515.5
+2026-11-12T12:56:00Z,JourneyService,getJourneyById,904,0,23.4,35.4,40.8
+2026-11-12T12:56:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,904,1,366.1,506.3,569.6
+2026-11-12T12:56:00Z,easyTravel Customer Frontend,/orange.jsf,8535,3,37.5,70.8,81.2
+2026-11-12T12:57:00Z,BookingService,storeBooking,997,0,353.8,494.2,568.9
+2026-11-12T12:57:00Z,CreditCardValidation,validateCreditCard,997,0,312.3,450.4,522.0
+2026-11-12T12:57:00Z,JourneyService,getJourneyById,997,0,23.8,36.7,45.4
+2026-11-12T12:57:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,997,0,365.3,505.0,579.7
+2026-11-12T12:57:00Z,easyTravel Customer Frontend,/orange.jsf,8533,4,37.2,70.6,86.0
+2026-11-12T12:58:00Z,BookingService,storeBooking,1014,0,354.2,488.2,557.4
+2026-11-12T12:58:00Z,CreditCardValidation,validateCreditCard,1014,0,311.3,444.2,506.0
+2026-11-12T12:58:00Z,JourneyService,getJourneyById,1014,0,24.0,35.6,42.5
+2026-11-12T12:58:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1014,0,365.0,498.3,566.3
+2026-11-12T12:58:00Z,easyTravel Customer Frontend,/orange.jsf,8854,6,37.4,66.1,80.5
+2026-11-12T12:59:00Z,BookingService,storeBooking,972,1,353.6,492.0,542.1
+2026-11-12T12:59:00Z,CreditCardValidation,validateCreditCard,972,1,310.3,451.4,504.9
+2026-11-12T12:59:00Z,JourneyService,getJourneyById,972,0,24.2,36.4,42.6
+2026-11-12T12:59:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,972,1,364.9,503.6,553.7
+2026-11-12T12:59:00Z,easyTravel Customer Frontend,/orange.jsf,8725,5,38.0,70.6,89.9
+2026-11-12T13:00:00Z,BookingService,storeBooking,1029,3,359.1,488.2,564.0
+2026-11-12T13:00:00Z,CreditCardValidation,validateCreditCard,1029,3,316.1,444.5,517.5
+2026-11-12T13:00:00Z,JourneyService,getJourneyById,1029,0,23.8,36.6,42.8
+2026-11-12T13:00:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1029,3,370.6,499.5,576.5
+2026-11-12T13:00:00Z,easyTravel Customer Frontend,/orange.jsf,8707,4,37.5,68.7,86.4
+2026-11-12T13:01:00Z,BookingService,storeBooking,959,0,351.2,479.3,532.5
+2026-11-12T13:01:00Z,CreditCardValidation,validateCreditCard,959,0,310.2,431.6,490.7
+2026-11-12T13:01:00Z,JourneyService,getJourneyById,959,0,23.6,35.8,43.2
+2026-11-12T13:01:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,959,0,363.0,490.1,543.9
+2026-11-12T13:01:00Z,easyTravel Customer Frontend,/orange.jsf,8869,2,38.8,69.2,80.7
+2026-11-12T13:02:00Z,BookingService,storeBooking,1030,1,351.9,477.4,559.2
+2026-11-12T13:02:00Z,CreditCardValidation,validateCreditCard,1030,1,308.2,432.9,519.4
+2026-11-12T13:02:00Z,JourneyService,getJourneyById,1030,0,23.9,35.7,42.5
+2026-11-12T13:02:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1030,1,363.1,487.4,569.3
+2026-11-12T13:02:00Z,easyTravel Customer Frontend,/orange.jsf,8861,7,38.4,67.5,80.2
+2026-11-12T13:03:00Z,BookingService,storeBooking,1021,0,357.1,496.3,549.3
+2026-11-12T13:03:00Z,CreditCardValidation,validateCreditCard,1021,0,313.6,451.7,504.4
+2026-11-12T13:03:00Z,JourneyService,getJourneyById,1021,0,24.4,36.2,42.2
+2026-11-12T13:03:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1021,0,368.1,508.5,559.0
+2026-11-12T13:03:00Z,easyTravel Customer Frontend,/orange.jsf,8980,7,37.2,63.9,83.3
+2026-11-12T13:04:00Z,BookingService,storeBooking,1005,1,353.9,488.9,561.9
+2026-11-12T13:04:00Z,CreditCardValidation,validateCreditCard,1005,1,310.4,444.8,514.3
+2026-11-12T13:04:00Z,JourneyService,getJourneyById,1005,0,24.4,37.0,43.5
+2026-11-12T13:04:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1005,1,365.7,499.2,571.4
+2026-11-12T13:04:00Z,easyTravel Customer Frontend,/orange.jsf,9080,7,37.0,67.0,84.8
+2026-11-12T13:05:00Z,BookingService,storeBooking,1002,1,357.0,493.7,587.7
+2026-11-12T13:05:00Z,CreditCardValidation,validateCreditCard,1002,1,313.2,450.7,541.2
+2026-11-12T13:05:00Z,JourneyService,getJourneyById,1002,0,24.3,35.5,44.4
+2026-11-12T13:05:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1002,1,367.4,505.0,596.0
+2026-11-12T13:05:00Z,easyTravel Customer Frontend,/orange.jsf,9291,4,37.3,64.7,77.1
+2026-11-12T13:06:00Z,BookingService,storeBooking,1052,0,357.6,489.7,556.0
+2026-11-12T13:06:00Z,CreditCardValidation,validateCreditCard,1052,0,314.9,445.0,519.5
+2026-11-12T13:06:00Z,JourneyService,getJourneyById,1052,0,24.0,38.3,43.3
+2026-11-12T13:06:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1052,0,368.0,500.0,565.1
+2026-11-12T13:06:00Z,easyTravel Customer Frontend,/orange.jsf,9238,3,37.6,65.0,84.5
+2026-11-12T13:07:00Z,BookingService,storeBooking,992,0,357.0,488.9,564.9
+2026-11-12T13:07:00Z,CreditCardValidation,validateCreditCard,992,0,315.0,445.7,524.3
+2026-11-12T13:07:00Z,JourneyService,getJourneyById,992,0,24.0,34.9,43.4
+2026-11-12T13:07:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,992,0,367.5,499.9,577.9
+2026-11-12T13:07:00Z,easyTravel Customer Frontend,/orange.jsf,9422,4,37.4,68.0,83.4
+2026-11-12T13:08:00Z,BookingService,storeBooking,1027,1,354.8,492.5,555.2
+2026-11-12T13:08:00Z,CreditCardValidation,validateCreditCard,1027,1,312.2,449.2,512.0
+2026-11-12T13:08:00Z,JourneyService,getJourneyById,1027,0,23.9,36.6,44.3
+2026-11-12T13:08:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1027,1,366.0,506.0,567.0
+2026-11-12T13:08:00Z,easyTravel Customer Frontend,/orange.jsf,9342,5,39.4,68.2,83.9
+2026-11-12T13:09:00Z,BookingService,storeBooking,1073,1,358.9,488.6,568.9
+2026-11-12T13:09:00Z,CreditCardValidation,validateCreditCard,1073,1,315.2,443.5,526.3
+2026-11-12T13:09:00Z,JourneyService,getJourneyById,1073,0,23.9,36.4,43.1
+2026-11-12T13:09:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1073,1,368.9,499.6,579.8
+2026-11-12T13:09:00Z,easyTravel Customer Frontend,/orange.jsf,9610,12,37.0,65.6,97.0
+2026-11-12T13:10:00Z,BookingService,storeBooking,1117,2,354.9,476.2,539.4
+2026-11-12T13:10:00Z,CreditCardValidation,validateCreditCard,1117,2,311.5,435.7,492.8
+2026-11-12T13:10:00Z,JourneyService,getJourneyById,1117,0,24.1,35.1,41.3
+2026-11-12T13:10:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1117,2,366.3,488.9,547.0
+2026-11-12T13:10:00Z,easyTravel Customer Frontend,/orange.jsf,9623,6,37.4,64.9,80.0
+2026-11-12T13:11:00Z,BookingService,storeBooking,1045,3,355.5,507.4,563.5
+2026-11-12T13:11:00Z,CreditCardValidation,validateCreditCard,1045,3,312.0,462.7,521.2
+2026-11-12T13:11:00Z,JourneyService,getJourneyById,1045,0,23.7,37.2,45.7
+2026-11-12T13:11:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1045,3,367.1,518.0,574.7
+2026-11-12T13:11:00Z,easyTravel Customer Frontend,/orange.jsf,9714,3,37.3,71.1,89.1
+2026-11-12T13:12:00Z,BookingService,storeBooking,1052,0,353.4,494.8,545.0
+2026-11-12T13:12:00Z,CreditCardValidation,validateCreditCard,1052,0,311.4,451.9,501.8
+2026-11-12T13:12:00Z,JourneyService,getJourneyById,1052,0,23.7,36.1,43.8
+2026-11-12T13:12:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1052,0,363.5,505.4,555.3
+2026-11-12T13:12:00Z,easyTravel Customer Frontend,/orange.jsf,9780,6,37.3,62.8,81.7
+2026-11-12T13:13:00Z,BookingService,storeBooking,1138,2,355.2,490.3,543.1
+2026-11-12T13:13:00Z,CreditCardValidation,validateCreditCard,1138,2,311.3,445.7,507.8
+2026-11-12T13:13:00Z,JourneyService,getJourneyById,1138,0,24.3,36.6,42.2
+2026-11-12T13:13:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1138,2,366.0,499.3,556.7
+2026-11-12T13:13:00Z,easyTravel Customer Frontend,/orange.jsf,9986,7,37.7,68.3,78.4
+2026-11-12T13:14:00Z,BookingService,storeBooking,1076,0,351.1,482.8,562.8
+2026-11-12T13:14:00Z,CreditCardValidation,validateCreditCard,1076,0,309.5,441.7,522.4
+2026-11-12T13:14:00Z,JourneyService,getJourneyById,1076,0,24.1,37.0,44.8
+2026-11-12T13:14:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1076,0,362.4,494.7,574.2
+2026-11-12T13:14:00Z,easyTravel Customer Frontend,/orange.jsf,10036,9,37.7,64.0,82.1
+2026-11-12T13:15:00Z,BookingService,storeBooking,1110,1,350.6,492.8,572.4
+2026-11-12T13:15:00Z,CreditCardValidation,validateCreditCard,1110,1,307.1,450.3,533.2
+2026-11-12T13:15:00Z,JourneyService,getJourneyById,1110,0,24.1,36.6,43.3
+2026-11-12T13:15:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1110,1,362.2,503.1,584.3
+2026-11-12T13:15:00Z,easyTravel Customer Frontend,/orange.jsf,9955,5,38.9,66.4,85.6
+2026-11-12T13:16:00Z,BookingService,storeBooking,1121,0,356.2,491.8,562.5
+2026-11-12T13:16:00Z,CreditCardValidation,validateCreditCard,1121,0,313.6,448.3,522.0
+2026-11-12T13:16:00Z,JourneyService,getJourneyById,1121,0,24.1,36.9,43.6
+2026-11-12T13:16:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1121,0,367.5,505.2,572.7
+2026-11-12T13:16:00Z,easyTravel Customer Frontend,/orange.jsf,10142,6,37.8,66.3,85.2
+2026-11-12T13:17:00Z,BookingService,storeBooking,1131,1,356.3,484.9,567.0
+2026-11-12T13:17:00Z,CreditCardValidation,validateCreditCard,1131,1,313.4,440.6,532.7
+2026-11-12T13:17:00Z,JourneyService,getJourneyById,1131,0,24.2,36.9,41.5
+2026-11-12T13:17:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1131,1,367.9,495.8,578.8
+2026-11-12T13:17:00Z,easyTravel Customer Frontend,/orange.jsf,10066,8,36.6,68.6,83.0
+2026-11-12T13:18:00Z,BookingService,storeBooking,1144,3,357.4,482.9,559.9
+2026-11-12T13:18:00Z,CreditCardValidation,validateCreditCard,1144,3,313.9,440.7,524.7
+2026-11-12T13:18:00Z,JourneyService,getJourneyById,1144,0,23.7,36.3,44.0
+2026-11-12T13:18:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1144,3,368.9,494.3,573.1
+2026-11-12T13:18:00Z,easyTravel Customer Frontend,/orange.jsf,10240,7,37.9,66.5,80.0
+2026-11-12T13:19:00Z,BookingService,storeBooking,1134,0,354.3,489.7,561.1
+2026-11-12T13:19:00Z,CreditCardValidation,validateCreditCard,1134,0,312.3,447.7,516.7
+2026-11-12T13:19:00Z,JourneyService,getJourneyById,1134,0,24.1,36.3,43.7
+2026-11-12T13:19:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1134,0,365.2,497.7,569.6
+2026-11-12T13:19:00Z,easyTravel Customer Frontend,/orange.jsf,10392,7,36.6,67.6,78.6
+2026-11-12T13:20:00Z,BookingService,storeBooking,1194,4,352.1,491.5,546.7
+2026-11-12T13:20:00Z,CreditCardValidation,validateCreditCard,1194,4,309.8,445.4,504.0
+2026-11-12T13:20:00Z,JourneyService,getJourneyById,1194,0,24.3,36.5,43.8
+2026-11-12T13:20:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1194,4,363.6,501.6,558.8
+2026-11-12T13:20:00Z,easyTravel Customer Frontend,/orange.jsf,10567,5,38.5,65.9,86.9
+2026-11-12T13:21:00Z,BookingService,storeBooking,1183,0,354.8,488.4,549.7
+2026-11-12T13:21:00Z,CreditCardValidation,validateCreditCard,1183,0,311.1,446.0,507.2
+2026-11-12T13:21:00Z,JourneyService,getJourneyById,1183,0,24.0,36.8,45.1
+2026-11-12T13:21:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1183,0,365.2,497.1,559.3
+2026-11-12T13:21:00Z,easyTravel Customer Frontend,/orange.jsf,10565,8,39.1,67.6,86.8
+2026-11-12T13:22:00Z,BookingService,storeBooking,1189,0,352.8,489.7,548.4
+2026-11-12T13:22:00Z,CreditCardValidation,validateCreditCard,1189,0,310.4,446.9,502.1
+2026-11-12T13:22:00Z,JourneyService,getJourneyById,1189,0,23.8,36.3,43.1
+2026-11-12T13:22:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1189,0,364.2,499.0,558.5
+2026-11-12T13:22:00Z,easyTravel Customer Frontend,/orange.jsf,10501,6,37.9,65.7,83.7
+2026-11-12T13:23:00Z,BookingService,storeBooking,1268,1,355.8,483.6,545.1
+2026-11-12T13:23:00Z,CreditCardValidation,validateCreditCard,1268,1,313.3,438.4,503.8
+2026-11-12T13:23:00Z,JourneyService,getJourneyById,1268,0,23.9,36.6,44.2
+2026-11-12T13:23:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1268,1,366.9,494.3,556.2
+2026-11-12T13:23:00Z,easyTravel Customer Frontend,/orange.jsf,10686,5,39.0,70.3,84.6
+2026-11-12T13:24:00Z,BookingService,storeBooking,1214,0,360.5,489.3,543.4
+2026-11-12T13:24:00Z,CreditCardValidation,validateCreditCard,1214,0,317.0,444.3,501.5
+2026-11-12T13:24:00Z,JourneyService,getJourneyById,1214,0,24.1,36.1,44.3
+2026-11-12T13:24:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1214,0,371.0,499.2,553.8
+2026-11-12T13:24:00Z,easyTravel Customer Frontend,/orange.jsf,10844,11,37.7,67.2,77.9
+2026-11-12T13:25:00Z,BookingService,storeBooking,1194,2,353.2,486.1,571.0
+2026-11-12T13:25:00Z,CreditCardValidation,validateCreditCard,1194,2,310.1,440.4,526.2
+2026-11-12T13:25:00Z,JourneyService,getJourneyById,1194,0,24.3,36.7,43.4
+2026-11-12T13:25:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1194,2,364.8,498.4,579.7
+2026-11-12T13:25:00Z,easyTravel Customer Frontend,/orange.jsf,10814,8,38.3,68.2,80.8
+2026-11-12T13:26:00Z,BookingService,storeBooking,1207,0,356.9,485.4,535.5
+2026-11-12T13:26:00Z,CreditCardValidation,validateCreditCard,1207,0,314.2,438.5,492.3
+2026-11-12T13:26:00Z,JourneyService,getJourneyById,1207,0,24.0,37.0,44.2
+2026-11-12T13:26:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1207,0,369.0,496.4,547.5
+2026-11-12T13:26:00Z,easyTravel Customer Frontend,/orange.jsf,10932,3,36.9,65.8,89.1
+2026-11-12T13:27:00Z,BookingService,storeBooking,1206,2,353.5,480.5,545.6
+2026-11-12T13:27:00Z,CreditCardValidation,validateCreditCard,1206,2,310.1,439.1,499.9
+2026-11-12T13:27:00Z,JourneyService,getJourneyById,1206,0,23.8,35.8,40.2
+2026-11-12T13:27:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1206,2,364.9,492.0,559.3
+2026-11-12T13:27:00Z,easyTravel Customer Frontend,/orange.jsf,10989,5,37.4,68.3,80.4
+2026-11-12T13:28:00Z,BookingService,storeBooking,1226,1,354.5,482.3,548.0
+2026-11-12T13:28:00Z,CreditCardValidation,validateCreditCard,1226,1,312.3,437.8,501.7
+2026-11-12T13:28:00Z,JourneyService,getJourneyById,1226,0,24.0,35.8,42.1
+2026-11-12T13:28:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1226,1,365.7,495.0,557.7
+2026-11-12T13:28:00Z,easyTravel Customer Frontend,/orange.jsf,10937,5,38.6,66.2,83.2
+2026-11-12T13:29:00Z,BookingService,storeBooking,1299,1,361.0,487.1,547.6
+2026-11-12T13:29:00Z,CreditCardValidation,validateCreditCard,1299,1,317.4,445.7,509.4
+2026-11-12T13:29:00Z,JourneyService,getJourneyById,1299,0,24.0,36.7,45.3
+2026-11-12T13:29:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1299,1,372.1,498.1,560.8
+2026-11-12T13:29:00Z,easyTravel Customer Frontend,/orange.jsf,11272,6,39.6,68.1,86.3
+2026-11-12T13:30:00Z,BookingService,storeBooking,1182,0,352.8,491.7,556.9
+2026-11-12T13:30:00Z,CreditCardValidation,validateCreditCard,1182,0,310.5,447.6,510.6
+2026-11-12T13:30:00Z,JourneyService,getJourneyById,1182,0,24.2,35.9,42.9
+2026-11-12T13:30:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1182,0,364.2,503.0,571.3
+2026-11-12T13:30:00Z,easyTravel Customer Frontend,/orange.jsf,11130,8,37.7,68.1,94.5
+2026-11-12T13:31:00Z,BookingService,storeBooking,1262,1,359.1,497.3,566.7
+2026-11-12T13:31:00Z,CreditCardValidation,validateCreditCard,1262,1,314.9,453.3,518.8
+2026-11-12T13:31:00Z,JourneyService,getJourneyById,1262,0,24.3,36.8,43.6
+2026-11-12T13:31:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1262,1,369.5,508.6,579.6
+2026-11-12T13:31:00Z,easyTravel Customer Frontend,/orange.jsf,11319,6,37.8,66.3,81.9
+2026-11-12T13:32:00Z,BookingService,storeBooking,1248,1,354.6,484.6,553.1
+2026-11-12T13:32:00Z,CreditCardValidation,validateCreditCard,1248,1,311.2,440.9,511.1
+2026-11-12T13:32:00Z,JourneyService,getJourneyById,1248,0,24.0,36.1,42.2
+2026-11-12T13:32:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1248,1,365.4,496.2,561.1
+2026-11-12T13:32:00Z,easyTravel Customer Frontend,/orange.jsf,11352,6,37.1,69.1,87.1
+2026-11-12T13:33:00Z,BookingService,storeBooking,1231,1,352.1,490.3,548.0
+2026-11-12T13:33:00Z,CreditCardValidation,validateCreditCard,1231,1,309.6,450.4,507.9
+2026-11-12T13:33:00Z,JourneyService,getJourneyById,1231,0,23.9,35.8,41.8
+2026-11-12T13:33:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1231,1,362.8,499.9,561.0
+2026-11-12T13:33:00Z,easyTravel Customer Frontend,/orange.jsf,11448,9,39.0,69.7,84.6
+2026-11-12T13:34:00Z,BookingService,storeBooking,1314,1,356.4,488.5,549.4
+2026-11-12T13:34:00Z,CreditCardValidation,validateCreditCard,1314,1,313.2,444.0,508.8
+2026-11-12T13:34:00Z,JourneyService,getJourneyById,1314,0,24.1,36.4,42.5
+2026-11-12T13:34:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1314,1,367.6,499.2,559.4
+2026-11-12T13:34:00Z,easyTravel Customer Frontend,/orange.jsf,11519,11,38.7,67.8,82.3
+2026-11-12T13:35:00Z,BookingService,storeBooking,1313,0,355.1,489.0,570.2
+2026-11-12T13:35:00Z,CreditCardValidation,validateCreditCard,1313,0,311.1,443.1,526.2
+2026-11-12T13:35:00Z,JourneyService,getJourneyById,1313,0,23.8,35.8,42.0
+2026-11-12T13:35:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1313,0,366.3,498.1,583.0
+2026-11-12T13:35:00Z,easyTravel Customer Frontend,/orange.jsf,11562,5,38.9,68.8,81.6
+2026-11-12T13:36:00Z,BookingService,storeBooking,1215,0,351.3,483.6,535.2
+2026-11-12T13:36:00Z,CreditCardValidation,validateCreditCard,1215,0,309.1,437.6,490.5
+2026-11-12T13:36:00Z,JourneyService,getJourneyById,1215,0,24.1,36.9,44.8
+2026-11-12T13:36:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1215,0,362.3,493.2,546.5
+2026-11-12T13:36:00Z,easyTravel Customer Frontend,/orange.jsf,11675,10,35.8,62.3,83.6
+2026-11-12T13:37:00Z,BookingService,storeBooking,1246,3,354.2,489.1,563.2
+2026-11-12T13:37:00Z,CreditCardValidation,validateCreditCard,1246,3,310.6,446.6,515.0
+2026-11-12T13:37:00Z,JourneyService,getJourneyById,1246,0,24.3,36.1,42.2
+2026-11-12T13:37:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1246,3,365.7,500.7,572.3
+2026-11-12T13:37:00Z,easyTravel Customer Frontend,/orange.jsf,11717,4,37.7,69.0,82.1
+2026-11-12T13:38:00Z,BookingService,storeBooking,1367,2,353.4,487.1,523.9
+2026-11-12T13:38:00Z,CreditCardValidation,validateCreditCard,1367,2,310.6,444.6,479.2
+2026-11-12T13:38:00Z,JourneyService,getJourneyById,1367,0,23.9,35.1,41.3
+2026-11-12T13:38:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1367,2,364.2,498.1,536.9
+2026-11-12T13:38:00Z,easyTravel Customer Frontend,/orange.jsf,11720,5,37.7,65.6,78.6
+2026-11-12T13:39:00Z,BookingService,storeBooking,1343,2,355.1,484.0,560.4
+2026-11-12T13:39:00Z,CreditCardValidation,validateCreditCard,1343,2,312.1,443.1,522.0
+2026-11-12T13:39:00Z,JourneyService,getJourneyById,1343,0,23.7,36.1,42.1
+2026-11-12T13:39:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1343,2,365.8,494.2,571.0
+2026-11-12T13:39:00Z,easyTravel Customer Frontend,/orange.jsf,11671,4,37.3,62.5,79.8
+2026-11-12T13:40:00Z,BookingService,storeBooking,1323,2,356.3,484.3,542.2
+2026-11-12T13:40:00Z,CreditCardValidation,validateCreditCard,1323,2,312.5,440.9,495.7
+2026-11-12T13:40:00Z,JourneyService,getJourneyById,1323,0,23.9,36.6,43.7
+2026-11-12T13:40:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1323,2,366.4,495.3,554.4
+2026-11-12T13:40:00Z,easyTravel Customer Frontend,/orange.jsf,11903,11,39.0,68.2,82.0
+2026-11-12T13:41:00Z,BookingService,storeBooking,1282,1,356.2,482.4,544.0
+2026-11-12T13:41:00Z,CreditCardValidation,validateCreditCard,1282,1,313.8,440.2,498.6
+2026-11-12T13:41:00Z,JourneyService,getJourneyById,1282,0,23.9,35.8,42.9
+2026-11-12T13:41:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1282,1,367.1,494.1,556.2
+2026-11-12T13:41:00Z,easyTravel Customer Frontend,/orange.jsf,11866,8,38.1,68.5,83.3
+2026-11-12T13:42:00Z,BookingService,storeBooking,1300,0,352.5,495.0,555.2
+2026-11-12T13:42:00Z,CreditCardValidation,validateCreditCard,1300,0,310.1,450.2,513.6
+2026-11-12T13:42:00Z,JourneyService,getJourneyById,1300,0,24.0,35.8,43.3
+2026-11-12T13:42:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1300,0,364.0,505.8,568.8
+2026-11-12T13:42:00Z,easyTravel Customer Frontend,/orange.jsf,11845,6,38.2,64.8,77.6
+2026-11-12T13:43:00Z,BookingService,storeBooking,1365,1,354.6,493.0,555.5
+2026-11-12T13:43:00Z,CreditCardValidation,validateCreditCard,1365,1,313.5,451.2,508.2
+2026-11-12T13:43:00Z,JourneyService,getJourneyById,1365,0,24.1,35.9,42.4
+2026-11-12T13:43:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1365,1,365.7,504.2,566.1
+2026-11-12T13:43:00Z,easyTravel Customer Frontend,/orange.jsf,12203,7,38.0,65.7,86.2
+2026-11-12T13:44:00Z,BookingService,storeBooking,1333,1,358.7,491.5,572.6
+2026-11-12T13:44:00Z,CreditCardValidation,validateCreditCard,1333,1,314.9,449.8,527.0
+2026-11-12T13:44:00Z,JourneyService,getJourneyById,1333,0,24.1,36.8,41.9
+2026-11-12T13:44:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1333,1,369.4,502.9,582.0
+2026-11-12T13:44:00Z,easyTravel Customer Frontend,/orange.jsf,12151,5,38.6,67.7,85.0
+2026-11-12T13:45:00Z,BookingService,storeBooking,1347,1,351.9,486.6,571.3
+2026-11-12T13:45:00Z,CreditCardValidation,validateCreditCard,1347,1,308.0,443.4,524.6
+2026-11-12T13:45:00Z,JourneyService,getJourneyById,1347,0,24.1,37.1,43.5
+2026-11-12T13:45:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1347,1,363.2,498.6,581.0
+2026-11-12T13:45:00Z,easyTravel Customer Frontend,/orange.jsf,12227,9,37.4,61.4,79.9
+2026-11-12T13:46:00Z,BookingService,storeBooking,1387,1,353.6,502.4,560.4
+2026-11-12T13:46:00Z,CreditCardValidation,validateCreditCard,1387,1,311.6,456.8,520.6
+2026-11-12T13:46:00Z,JourneyService,getJourneyById,1387,0,23.9,36.5,42.3
+2026-11-12T13:46:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1387,1,365.0,513.1,572.2
+2026-11-12T13:46:00Z,easyTravel Customer Frontend,/orange.jsf,12307,11,36.9,61.9,80.8
+2026-11-12T13:47:00Z,BookingService,storeBooking,1396,2,356.3,485.4,557.5
+2026-11-12T13:47:00Z,CreditCardValidation,validateCreditCard,1396,2,314.4,439.4,513.9
+2026-11-12T13:47:00Z,JourneyService,getJourneyById,1396,0,23.8,36.4,42.8
+2026-11-12T13:47:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1396,2,366.9,496.2,569.4
+2026-11-12T13:47:00Z,easyTravel Customer Frontend,/orange.jsf,12328,7,37.1,65.5,76.9
+2026-11-12T13:48:00Z,BookingService,storeBooking,1401,1,354.8,484.2,528.4
+2026-11-12T13:48:00Z,CreditCardValidation,validateCreditCard,1401,1,311.8,440.1,482.8
+2026-11-12T13:48:00Z,JourneyService,getJourneyById,1401,0,24.4,36.3,43.3
+2026-11-12T13:48:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1401,1,366.5,493.7,538.4
+2026-11-12T13:48:00Z,easyTravel Customer Frontend,/orange.jsf,12430,9,38.6,69.8,85.9
+2026-11-12T13:49:00Z,BookingService,storeBooking,1408,2,354.9,489.3,584.8
+2026-11-12T13:49:00Z,CreditCardValidation,validateCreditCard,1408,2,312.1,443.7,544.6
+2026-11-12T13:49:00Z,JourneyService,getJourneyById,1408,0,24.0,36.5,43.7
+2026-11-12T13:49:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1408,2,366.1,501.6,598.1
+2026-11-12T13:49:00Z,easyTravel Customer Frontend,/orange.jsf,12357,4,38.6,63.9,84.6
+2026-11-12T13:50:00Z,BookingService,storeBooking,1467,1,356.1,485.4,542.5
+2026-11-12T13:50:00Z,CreditCardValidation,validateCreditCard,1467,1,312.7,438.8,500.3
+2026-11-12T13:50:00Z,JourneyService,getJourneyById,1467,0,24.1,36.8,43.3
+2026-11-12T13:50:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1467,1,367.0,497.0,555.1
+2026-11-12T13:50:00Z,easyTravel Customer Frontend,/orange.jsf,12399,3,36.6,65.7,80.3
+2026-11-12T13:51:00Z,BookingService,storeBooking,1387,1,355.0,476.7,561.7
+2026-11-12T13:51:00Z,CreditCardValidation,validateCreditCard,1387,1,312.2,432.7,520.2
+2026-11-12T13:51:00Z,JourneyService,getJourneyById,1387,0,24.0,36.9,45.4
+2026-11-12T13:51:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1387,1,365.5,486.8,572.7
+2026-11-12T13:51:00Z,easyTravel Customer Frontend,/orange.jsf,12518,11,38.7,67.2,85.3
+2026-11-12T13:52:00Z,BookingService,storeBooking,1369,0,355.0,480.2,551.9
+2026-11-12T13:52:00Z,CreditCardValidation,validateCreditCard,1369,0,312.5,437.1,507.6
+2026-11-12T13:52:00Z,JourneyService,getJourneyById,1369,0,24.0,35.6,41.9
+2026-11-12T13:52:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1369,0,366.3,491.7,563.4
+2026-11-12T13:52:00Z,easyTravel Customer Frontend,/orange.jsf,12532,14,36.3,68.5,87.8
+2026-11-12T13:53:00Z,BookingService,storeBooking,1381,1,355.4,491.4,554.3
+2026-11-12T13:53:00Z,CreditCardValidation,validateCreditCard,1381,1,312.6,446.9,514.8
+2026-11-12T13:53:00Z,JourneyService,getJourneyById,1381,0,24.0,35.9,42.9
+2026-11-12T13:53:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1381,1,365.9,502.2,566.7
+2026-11-12T13:53:00Z,easyTravel Customer Frontend,/orange.jsf,12622,8,38.4,60.3,99.8
+2026-11-12T13:54:00Z,BookingService,storeBooking,1369,1,355.0,490.5,560.3
+2026-11-12T13:54:00Z,CreditCardValidation,validateCreditCard,1369,1,313.3,445.2,514.9
+2026-11-12T13:54:00Z,JourneyService,getJourneyById,1369,0,23.9,35.1,41.8
+2026-11-12T13:54:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1369,1,367.3,501.6,570.4
+2026-11-12T13:54:00Z,easyTravel Customer Frontend,/orange.jsf,12827,6,36.4,63.5,81.7
+2026-11-12T13:55:00Z,BookingService,storeBooking,1507,0,354.0,481.9,550.9
+2026-11-12T13:55:00Z,CreditCardValidation,validateCreditCard,1507,0,311.5,438.6,500.7
+2026-11-12T13:55:00Z,JourneyService,getJourneyById,1507,0,23.6,35.8,40.8
+2026-11-12T13:55:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1507,0,364.5,491.4,563.0
+2026-11-12T13:55:00Z,easyTravel Customer Frontend,/orange.jsf,12656,5,38.1,67.8,77.9
+2026-11-12T13:56:00Z,BookingService,storeBooking,1401,0,354.3,480.2,556.2
+2026-11-12T13:56:00Z,CreditCardValidation,validateCreditCard,1401,0,311.3,436.6,518.1
+2026-11-12T13:56:00Z,JourneyService,getJourneyById,1401,0,23.9,36.1,42.8
+2026-11-12T13:56:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1401,0,365.3,489.9,566.8
+2026-11-12T13:56:00Z,easyTravel Customer Frontend,/orange.jsf,12906,4,37.8,62.2,83.1
+2026-11-12T13:57:00Z,BookingService,storeBooking,1406,1,354.2,486.2,548.5
+2026-11-12T13:57:00Z,CreditCardValidation,validateCreditCard,1406,1,310.1,442.2,511.0
+2026-11-12T13:57:00Z,JourneyService,getJourneyById,1406,0,24.0,36.7,42.8
+2026-11-12T13:57:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1406,1,365.5,496.9,560.0
+2026-11-12T13:57:00Z,easyTravel Customer Frontend,/orange.jsf,12888,4,40.0,66.2,77.9
+2026-11-12T13:58:00Z,BookingService,storeBooking,1515,68,1135.6,2454.6,2542.3
+2026-11-12T13:58:00Z,CreditCardValidation,validateCreditCard,1515,68,1095.3,2411.2,2495.9
+2026-11-12T13:58:00Z,JourneyService,getJourneyById,1515,0,24.3,36.3,44.4
+2026-11-12T13:58:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1515,68,1147.0,2465.5,2553.5
+2026-11-12T13:58:00Z,easyTravel Customer Frontend,/orange.jsf,12870,9,40.1,71.9,92.0
+2026-11-12T13:59:00Z,BookingService,storeBooking,1429,50,2160.2,2457.1,2550.1
+2026-11-12T13:59:00Z,CreditCardValidation,validateCreditCard,1429,50,2118.0,2410.2,2513.1
+2026-11-12T13:59:00Z,JourneyService,getJourneyById,1429,0,24.3,35.9,40.4
+2026-11-12T13:59:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1429,50,2171.8,2468.9,2557.7
+2026-11-12T13:59:00Z,easyTravel Customer Frontend,/orange.jsf,12942,10,39.1,66.9,91.7
+2026-11-12T14:00:00Z,BookingService,storeBooking,1504,143,2303.0,2526.2,2605.9
+2026-11-12T14:00:00Z,CreditCardValidation,validateCreditCard,1504,143,2263.0,2482.2,2561.5
+2026-11-12T14:00:00Z,JourneyService,getJourneyById,1504,0,24.3,36.8,42.6
+2026-11-12T14:00:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1504,143,2314.2,2536.1,2615.2
+2026-11-12T14:00:00Z,easyTravel Customer Frontend,/orange.jsf,12993,12,38.1,70.5,89.2
+2026-11-12T14:01:00Z,BookingService,storeBooking,1406,45,1982.4,2470.6,2561.2
+2026-11-12T14:01:00Z,CreditCardValidation,validateCreditCard,1406,45,1939.5,2425.3,2520.3
+2026-11-12T14:01:00Z,JourneyService,getJourneyById,1406,0,23.8,36.0,42.6
+2026-11-12T14:01:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1406,45,1994.7,2479.9,2573.5
+2026-11-12T14:01:00Z,easyTravel Customer Frontend,/orange.jsf,13166,10,37.4,67.0,80.7
+2026-11-12T14:02:00Z,BookingService,storeBooking,1425,25,1956.5,2430.7,2552.2
+2026-11-12T14:02:00Z,CreditCardValidation,validateCreditCard,1425,25,1912.4,2388.1,2507.3
+2026-11-12T14:02:00Z,JourneyService,getJourneyById,1425,0,23.6,36.5,42.9
+2026-11-12T14:02:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1425,25,1966.2,2442.4,2561.2
+2026-11-12T14:02:00Z,easyTravel Customer Frontend,/orange.jsf,13206,8,38.3,67.5,80.2
+2026-11-12T14:03:00Z,BookingService,storeBooking,1493,116,2210.2,2500.5,2600.7
+2026-11-12T14:03:00Z,CreditCardValidation,validateCreditCard,1493,116,2168.5,2455.5,2555.9
+2026-11-12T14:03:00Z,JourneyService,getJourneyById,1493,0,24.0,35.7,42.5
+2026-11-12T14:03:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1493,116,2221.7,2511.1,2609.3
+2026-11-12T14:03:00Z,easyTravel Customer Frontend,/orange.jsf,13041,8,36.6,67.9,81.3
+2026-11-12T14:04:00Z,BookingService,storeBooking,1431,56,2193.4,2475.0,2566.2
+2026-11-12T14:04:00Z,CreditCardValidation,validateCreditCard,1431,56,2149.4,2434.7,2521.6
+2026-11-12T14:04:00Z,JourneyService,getJourneyById,1431,0,24.0,36.2,42.3
+2026-11-12T14:04:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1431,56,2204.9,2487.5,2577.5
+2026-11-12T14:04:00Z,easyTravel Customer Frontend,/orange.jsf,13203,7,37.2,67.1,85.8
+2026-11-12T14:05:00Z,BookingService,storeBooking,1491,117,2207.3,2501.3,2577.5
+2026-11-12T14:05:00Z,CreditCardValidation,validateCreditCard,1491,117,2165.7,2458.8,2533.2
+2026-11-12T14:05:00Z,JourneyService,getJourneyById,1491,0,23.9,36.4,42.4
+2026-11-12T14:05:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1491,117,2218.9,2512.5,2588.4
+2026-11-12T14:05:00Z,easyTravel Customer Frontend,/orange.jsf,13208,10,38.0,64.7,79.4
+2026-11-12T14:06:00Z,BookingService,storeBooking,1484,100,2191.8,2493.0,2575.8
+2026-11-12T14:06:00Z,CreditCardValidation,validateCreditCard,1484,100,2148.6,2451.0,2536.1
+2026-11-12T14:06:00Z,JourneyService,getJourneyById,1484,0,23.9,36.9,45.0
+2026-11-12T14:06:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1484,100,2202.0,2504.4,2588.0
+2026-11-12T14:06:00Z,easyTravel Customer Frontend,/orange.jsf,13366,13,37.0,66.9,90.8
+2026-11-12T14:07:00Z,BookingService,storeBooking,1502,129,2311.6,2505.5,2579.8
+2026-11-12T14:07:00Z,CreditCardValidation,validateCreditCard,1502,129,2269.0,2459.9,2537.6
+2026-11-12T14:07:00Z,JourneyService,getJourneyById,1502,0,24.1,36.2,44.0
+2026-11-12T14:07:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1502,129,2322.8,2516.6,2590.3
+2026-11-12T14:07:00Z,easyTravel Customer Frontend,/orange.jsf,13243,8,37.6,66.9,85.5
+2026-11-12T14:08:00Z,BookingService,storeBooking,1522,150,2249.2,2516.9,2590.7
+2026-11-12T14:08:00Z,CreditCardValidation,validateCreditCard,1522,150,2206.4,2474.0,2547.5
+2026-11-12T14:08:00Z,JourneyService,getJourneyById,1522,0,24.1,35.7,43.3
+2026-11-12T14:08:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1522,150,2259.7,2528.3,2601.6
+2026-11-12T14:08:00Z,easyTravel Customer Frontend,/orange.jsf,13413,10,38.1,71.1,90.9
+2026-11-12T14:09:00Z,BookingService,storeBooking,1483,98,2182.0,2485.5,2571.2
+2026-11-12T14:09:00Z,CreditCardValidation,validateCreditCard,1483,98,2139.5,2441.4,2533.4
+2026-11-12T14:09:00Z,JourneyService,getJourneyById,1483,0,24.0,35.6,42.7
+2026-11-12T14:09:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1483,98,2194.1,2496.7,2579.7
+2026-11-12T14:09:00Z,easyTravel Customer Frontend,/orange.jsf,13465,8,39.3,66.8,84.4
+2026-11-12T14:10:00Z,BookingService,storeBooking,1541,170,2254.7,2521.7,2576.6
+2026-11-12T14:10:00Z,CreditCardValidation,validateCreditCard,1541,170,2212.2,2476.9,2536.8
+2026-11-12T14:10:00Z,JourneyService,getJourneyById,1541,0,24.0,36.1,43.1
+2026-11-12T14:10:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1541,170,2266.6,2533.6,2588.4
+2026-11-12T14:10:00Z,easyTravel Customer Frontend,/orange.jsf,13501,11,37.2,64.8,80.1
+2026-11-12T14:11:00Z,BookingService,storeBooking,1540,171,2296.0,2522.1,2585.4
+2026-11-12T14:11:00Z,CreditCardValidation,validateCreditCard,1540,171,2254.4,2477.2,2544.5
+2026-11-12T14:11:00Z,JourneyService,getJourneyById,1540,0,23.8,36.1,43.6
+2026-11-12T14:11:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1540,171,2307.2,2533.8,2595.6
+2026-11-12T14:11:00Z,easyTravel Customer Frontend,/orange.jsf,13590,8,38.0,68.2,82.6
+2026-11-12T14:12:00Z,BookingService,storeBooking,1464,111,2228.7,2505.9,2618.3
+2026-11-12T14:12:00Z,CreditCardValidation,validateCreditCard,1464,111,2182.5,2463.7,2570.4
+2026-11-12T14:12:00Z,JourneyService,getJourneyById,1464,0,23.8,36.1,44.5
+2026-11-12T14:12:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1464,111,2239.6,2516.3,2628.6
+2026-11-12T14:12:00Z,easyTravel Customer Frontend,/orange.jsf,13417,9,38.1,64.5,83.5
+2026-11-12T14:13:00Z,BookingService,storeBooking,1512,139,2262.7,2521.7,2600.1
+2026-11-12T14:13:00Z,CreditCardValidation,validateCreditCard,1512,139,2220.4,2477.6,2548.3
+2026-11-12T14:13:00Z,JourneyService,getJourneyById,1512,0,23.8,37.0,43.6
+2026-11-12T14:13:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1512,139,2274.2,2532.6,2611.2
+2026-11-12T14:13:00Z,easyTravel Customer Frontend,/orange.jsf,13524,12,37.0,65.1,80.4
+2026-11-12T14:14:00Z,BookingService,storeBooking,1557,180,2294.6,2518.8,2598.9
+2026-11-12T14:14:00Z,CreditCardValidation,validateCreditCard,1557,180,2249.8,2472.3,2560.7
+2026-11-12T14:14:00Z,JourneyService,getJourneyById,1557,0,23.6,35.7,43.9
+2026-11-12T14:14:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1557,180,2305.3,2529.0,2609.3
+2026-11-12T14:14:00Z,easyTravel Customer Frontend,/orange.jsf,13742,14,38.4,63.2,76.5
+2026-11-12T14:15:00Z,BookingService,storeBooking,1525,156,2257.1,2517.4,2617.3
+2026-11-12T14:15:00Z,CreditCardValidation,validateCreditCard,1525,156,2213.4,2472.5,2570.8
+2026-11-12T14:15:00Z,JourneyService,getJourneyById,1525,0,24.0,36.0,42.6
+2026-11-12T14:15:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1525,156,2268.5,2528.8,2629.1
+2026-11-12T14:15:00Z,easyTravel Customer Frontend,/orange.jsf,13776,8,38.0,66.5,91.7
+2026-11-12T14:16:00Z,BookingService,storeBooking,1491,116,2271.8,2511.6,2600.2
+2026-11-12T14:16:00Z,CreditCardValidation,validateCreditCard,1491,116,2227.8,2465.8,2552.1
+2026-11-12T14:16:00Z,JourneyService,getJourneyById,1491,0,24.2,36.2,41.7
+2026-11-12T14:16:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1491,116,2283.2,2521.0,2613.0
+2026-11-12T14:16:00Z,easyTravel Customer Frontend,/orange.jsf,13663,7,37.2,69.5,87.8
+2026-11-12T14:17:00Z,BookingService,storeBooking,1581,215,2296.2,2521.4,2627.9
+2026-11-12T14:17:00Z,CreditCardValidation,validateCreditCard,1581,215,2252.5,2477.8,2581.3
+2026-11-12T14:17:00Z,JourneyService,getJourneyById,1581,0,24.0,37.0,44.4
+2026-11-12T14:17:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1581,215,2306.9,2533.6,2639.2
+2026-11-12T14:17:00Z,easyTravel Customer Frontend,/orange.jsf,13569,9,39.8,68.4,88.1
+2026-11-12T14:18:00Z,BookingService,storeBooking,1472,93,2251.3,2501.8,2582.1
+2026-11-12T14:18:00Z,CreditCardValidation,validateCreditCard,1472,93,2210.9,2456.4,2540.3
+2026-11-12T14:18:00Z,JourneyService,getJourneyById,1472,0,23.8,35.4,42.3
+2026-11-12T14:18:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1472,93,2263.8,2512.2,2592.3
+2026-11-12T14:18:00Z,easyTravel Customer Frontend,/orange.jsf,13626,8,38.9,73.3,90.4
+2026-11-12T14:19:00Z,BookingService,storeBooking,1527,153,2286.8,2510.5,2602.5
+2026-11-12T14:19:00Z,CreditCardValidation,validateCreditCard,1527,153,2245.4,2465.4,2562.9
+2026-11-12T14:19:00Z,JourneyService,getJourneyById,1527,0,24.0,36.3,43.3
+2026-11-12T14:19:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1527,153,2297.2,2521.4,2614.3
+2026-11-12T14:19:00Z,easyTravel Customer Frontend,/orange.jsf,13544,7,37.3,66.2,90.9
+2026-11-12T14:20:00Z,BookingService,storeBooking,1446,83,2211.0,2492.1,2568.6
+2026-11-12T14:20:00Z,CreditCardValidation,validateCreditCard,1446,83,2168.3,2446.5,2531.9
+2026-11-12T14:20:00Z,JourneyService,getJourneyById,1446,0,24.0,35.6,42.9
+2026-11-12T14:20:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1446,83,2223.2,2503.2,2581.2
+2026-11-12T14:20:00Z,easyTravel Customer Frontend,/orange.jsf,13511,9,38.5,68.6,83.8
+2026-11-12T14:21:00Z,BookingService,storeBooking,1486,99,2232.1,2505.7,2598.3
+2026-11-12T14:21:00Z,CreditCardValidation,validateCreditCard,1486,99,2189.5,2460.5,2554.0
+2026-11-12T14:21:00Z,JourneyService,getJourneyById,1486,0,24.0,36.2,44.8
+2026-11-12T14:21:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1486,99,2242.8,2516.3,2608.6
+2026-11-12T14:21:00Z,easyTravel Customer Frontend,/orange.jsf,13394,6,38.4,67.3,100.5
+2026-11-12T14:22:00Z,BookingService,storeBooking,1500,135,2253.6,2525.0,2604.0
+2026-11-12T14:22:00Z,CreditCardValidation,validateCreditCard,1500,135,2211.7,2482.7,2563.5
+2026-11-12T14:22:00Z,JourneyService,getJourneyById,1500,0,24.0,36.5,41.8
+2026-11-12T14:22:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1500,135,2263.5,2536.4,2616.8
+2026-11-12T14:22:00Z,easyTravel Customer Frontend,/orange.jsf,13398,1,38.1,72.7,97.8
+2026-11-12T14:23:00Z,BookingService,storeBooking,1495,124,2264.4,2507.0,2590.4
+2026-11-12T14:23:00Z,CreditCardValidation,validateCreditCard,1495,124,2220.9,2460.6,2546.4
+2026-11-12T14:23:00Z,JourneyService,getJourneyById,1495,0,23.6,35.9,42.0
+2026-11-12T14:23:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1495,124,2274.9,2518.8,2603.0
+2026-11-12T14:23:00Z,easyTravel Customer Frontend,/orange.jsf,13282,4,36.8,65.9,78.0
+2026-11-12T14:24:00Z,BookingService,storeBooking,1499,113,2240.1,2492.0,2577.3
+2026-11-12T14:24:00Z,CreditCardValidation,validateCreditCard,1499,113,2196.3,2447.3,2538.4
+2026-11-12T14:24:00Z,JourneyService,getJourneyById,1499,0,24.1,36.6,43.5
+2026-11-12T14:24:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1499,113,2250.6,2501.8,2585.3
+2026-11-12T14:24:00Z,easyTravel Customer Frontend,/orange.jsf,13174,6,37.1,64.8,75.8
+2026-11-12T14:25:00Z,BookingService,storeBooking,1436,68,2137.7,2484.1,2577.5
+2026-11-12T14:25:00Z,CreditCardValidation,validateCreditCard,1436,68,2096.1,2443.0,2534.8
+2026-11-12T14:25:00Z,JourneyService,getJourneyById,1436,0,24.2,35.9,42.2
+2026-11-12T14:25:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1436,68,2149.4,2494.0,2591.1
+2026-11-12T14:25:00Z,easyTravel Customer Frontend,/orange.jsf,13310,5,39.3,67.9,78.2
+2026-11-12T14:26:00Z,BookingService,storeBooking,1457,78,2230.7,2480.3,2562.2
+2026-11-12T14:26:00Z,CreditCardValidation,validateCreditCard,1457,78,2189.3,2437.0,2523.2
+2026-11-12T14:26:00Z,JourneyService,getJourneyById,1457,0,24.1,36.7,41.5
+2026-11-12T14:26:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1457,78,2241.4,2492.6,2575.7
+2026-11-12T14:26:00Z,easyTravel Customer Frontend,/orange.jsf,13257,6,38.4,69.3,83.6
+2026-11-12T14:27:00Z,BookingService,storeBooking,1531,156,2299.5,2530.1,2621.5
+2026-11-12T14:27:00Z,CreditCardValidation,validateCreditCard,1531,156,2256.8,2488.1,2578.8
+2026-11-12T14:27:00Z,JourneyService,getJourneyById,1531,0,23.9,36.4,41.4
+2026-11-12T14:27:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1531,156,2309.6,2540.7,2630.1
+2026-11-12T14:27:00Z,easyTravel Customer Frontend,/orange.jsf,13349,13,37.7,68.3,92.9
+2026-11-12T14:28:00Z,BookingService,storeBooking,1443,83,2176.4,2492.3,2592.1
+2026-11-12T14:28:00Z,CreditCardValidation,validateCreditCard,1443,83,2134.4,2449.8,2546.7
+2026-11-12T14:28:00Z,JourneyService,getJourneyById,1443,0,23.8,35.1,44.3
+2026-11-12T14:28:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1443,83,2188.1,2505.5,2602.4
+2026-11-12T14:28:00Z,easyTravel Customer Frontend,/orange.jsf,13094,4,37.3,66.8,84.6
+2026-11-12T14:29:00Z,BookingService,storeBooking,1436,61,2154.8,2473.9,2564.7
+2026-11-12T14:29:00Z,CreditCardValidation,validateCreditCard,1436,61,2112.8,2430.3,2521.7
+2026-11-12T14:29:00Z,JourneyService,getJourneyById,1436,0,24.2,36.9,46.2
+2026-11-12T14:29:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1436,61,2165.9,2487.0,2576.7
+2026-11-12T14:29:00Z,easyTravel Customer Frontend,/orange.jsf,13243,6,38.3,67.7,82.9
+2026-11-12T14:30:00Z,BookingService,storeBooking,1450,77,2221.3,2493.9,2594.6
+2026-11-12T14:30:00Z,CreditCardValidation,validateCreditCard,1450,77,2178.8,2454.0,2551.6
+2026-11-12T14:30:00Z,JourneyService,getJourneyById,1450,0,24.0,36.7,43.8
+2026-11-12T14:30:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1450,77,2231.9,2505.0,2605.0
+2026-11-12T14:30:00Z,easyTravel Customer Frontend,/orange.jsf,13023,7,38.8,72.7,87.1
+2026-11-12T14:31:00Z,BookingService,storeBooking,1428,82,2239.5,2504.8,2585.1
+2026-11-12T14:31:00Z,CreditCardValidation,validateCreditCard,1428,82,2196.3,2461.5,2542.8
+2026-11-12T14:31:00Z,JourneyService,getJourneyById,1428,0,24.1,36.4,40.7
+2026-11-12T14:31:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1428,82,2249.9,2515.7,2594.5
+2026-11-12T14:31:00Z,easyTravel Customer Frontend,/orange.jsf,12941,13,37.4,67.4,88.0
+2026-11-12T14:32:00Z,BookingService,storeBooking,1398,47,1847.5,2435.8,2545.7
+2026-11-12T14:32:00Z,CreditCardValidation,validateCreditCard,1398,47,1809.5,2388.2,2501.2
+2026-11-12T14:32:00Z,JourneyService,getJourneyById,1398,0,24.1,36.1,43.8
+2026-11-12T14:32:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1398,47,1859.1,2446.0,2557.5
+2026-11-12T14:32:00Z,easyTravel Customer Frontend,/orange.jsf,12924,4,36.9,67.3,80.9
+2026-11-12T14:33:00Z,BookingService,storeBooking,1365,7,1701.5,2338.9,2441.0
+2026-11-12T14:33:00Z,CreditCardValidation,validateCreditCard,1365,7,1663.6,2303.2,2396.9
+2026-11-12T14:33:00Z,JourneyService,getJourneyById,1365,0,23.9,36.0,43.1
+2026-11-12T14:33:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1365,7,1713.3,2351.1,2453.8
+2026-11-12T14:33:00Z,easyTravel Customer Frontend,/orange.jsf,12854,8,38.1,69.9,86.2
+2026-11-12T14:34:00Z,BookingService,storeBooking,1381,31,1390.1,2356.8,2524.3
+2026-11-12T14:34:00Z,CreditCardValidation,validateCreditCard,1381,31,1345.5,2313.1,2477.8
+2026-11-12T14:34:00Z,JourneyService,getJourneyById,1381,0,23.9,36.0,42.5
+2026-11-12T14:34:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1381,31,1401.1,2369.7,2533.9
+2026-11-12T14:34:00Z,easyTravel Customer Frontend,/orange.jsf,12788,6,37.0,69.6,85.8
+2026-11-12T14:35:00Z,BookingService,storeBooking,1369,0,1232.9,1931.4,2111.3
+2026-11-12T14:35:00Z,CreditCardValidation,validateCreditCard,1369,0,1191.1,1889.5,2071.5
+2026-11-12T14:35:00Z,JourneyService,getJourneyById,1369,0,24.1,36.7,42.7
+2026-11-12T14:35:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1369,0,1242.7,1942.3,2123.1
+2026-11-12T14:35:00Z,easyTravel Customer Frontend,/orange.jsf,12512,9,38.5,68.2,90.6
+2026-11-12T14:36:00Z,BookingService,storeBooking,1349,14,1273.1,2342.1,2471.4
+2026-11-12T14:36:00Z,CreditCardValidation,validateCreditCard,1349,14,1230.4,2303.0,2431.2
+2026-11-12T14:36:00Z,JourneyService,getJourneyById,1349,0,24.2,37.3,43.5
+2026-11-12T14:36:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1349,14,1283.9,2354.0,2479.9
+2026-11-12T14:36:00Z,easyTravel Customer Frontend,/orange.jsf,12325,8,37.5,64.1,83.2
+2026-11-12T14:37:00Z,BookingService,storeBooking,1320,1,825.4,1584.7,1821.4
+2026-11-12T14:37:00Z,CreditCardValidation,validateCreditCard,1320,1,784.0,1542.0,1785.5
+2026-11-12T14:37:00Z,JourneyService,getJourneyById,1320,0,23.8,36.7,42.6
+2026-11-12T14:37:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1320,1,835.0,1596.3,1830.4
+2026-11-12T14:37:00Z,easyTravel Customer Frontend,/orange.jsf,12429,3,38.8,70.3,91.5
+2026-11-12T14:38:00Z,BookingService,storeBooking,1304,1,670.0,1033.4,1145.1
+2026-11-12T14:38:00Z,CreditCardValidation,validateCreditCard,1304,1,627.9,990.0,1106.4
+2026-11-12T14:38:00Z,JourneyService,getJourneyById,1304,0,23.8,35.6,43.2
+2026-11-12T14:38:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1304,1,681.2,1045.1,1154.8
+2026-11-12T14:38:00Z,easyTravel Customer Frontend,/orange.jsf,12137,11,37.7,70.6,87.9
+2026-11-12T14:39:00Z,BookingService,storeBooking,1325,1,781.2,1738.2,2022.4
+2026-11-12T14:39:00Z,CreditCardValidation,validateCreditCard,1325,1,737.2,1695.5,1975.9
+2026-11-12T14:39:00Z,JourneyService,getJourneyById,1325,0,24.0,35.9,41.7
+2026-11-12T14:39:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1325,1,792.8,1749.3,2034.6
+2026-11-12T14:39:00Z,easyTravel Customer Frontend,/orange.jsf,12063,7,37.6,67.6,78.9
+2026-11-12T14:40:00Z,BookingService,storeBooking,1356,4,1120.6,2298.0,2447.4
+2026-11-12T14:40:00Z,CreditCardValidation,validateCreditCard,1356,4,1076.7,2258.1,2400.2
+2026-11-12T14:40:00Z,JourneyService,getJourneyById,1356,0,24.2,36.7,42.4
+2026-11-12T14:40:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1356,4,1133.0,2308.5,2458.0
+2026-11-12T14:40:00Z,easyTravel Customer Frontend,/orange.jsf,11993,13,40.3,69.0,89.2
+2026-11-12T14:41:00Z,BookingService,storeBooking,1351,0,375.6,1058.8,1374.7
+2026-11-12T14:41:00Z,CreditCardValidation,validateCreditCard,1351,0,332.4,1024.5,1339.5
+2026-11-12T14:41:00Z,JourneyService,getJourneyById,1351,0,23.8,36.0,43.9
+2026-11-12T14:41:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1351,0,386.5,1069.6,1384.4
+2026-11-12T14:41:00Z,easyTravel Customer Frontend,/orange.jsf,11895,9,38.8,65.5,79.8
+2026-11-12T14:42:00Z,BookingService,storeBooking,1311,1,358.3,489.8,557.3
+2026-11-12T14:42:00Z,CreditCardValidation,validateCreditCard,1311,1,314.6,449.5,514.3
+2026-11-12T14:42:00Z,JourneyService,getJourneyById,1311,0,24.1,36.3,43.0
+2026-11-12T14:42:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1311,1,369.6,499.7,565.4
+2026-11-12T14:42:00Z,easyTravel Customer Frontend,/orange.jsf,11837,9,38.8,65.3,76.3
+2026-11-12T14:43:00Z,BookingService,storeBooking,1272,1,357.2,492.2,565.5
+2026-11-12T14:43:00Z,CreditCardValidation,validateCreditCard,1272,1,314.4,447.1,519.6
+2026-11-12T14:43:00Z,JourneyService,getJourneyById,1272,0,23.7,36.1,44.4
+2026-11-12T14:43:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1272,1,368.3,502.9,575.5
+2026-11-12T14:43:00Z,easyTravel Customer Frontend,/orange.jsf,11924,7,36.8,66.3,80.4
+2026-11-12T14:44:00Z,BookingService,storeBooking,1228,2,353.0,475.9,534.2
+2026-11-12T14:44:00Z,CreditCardValidation,validateCreditCard,1228,2,310.6,432.9,490.3
+2026-11-12T14:44:00Z,JourneyService,getJourneyById,1228,0,23.8,35.0,44.5
+2026-11-12T14:44:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1228,2,364.0,488.2,545.5
+2026-11-12T14:44:00Z,easyTravel Customer Frontend,/orange.jsf,11635,9,36.5,67.0,82.5
+2026-11-12T14:45:00Z,BookingService,storeBooking,1267,3,353.3,484.1,547.8
+2026-11-12T14:45:00Z,CreditCardValidation,validateCreditCard,1267,3,310.5,439.0,503.5
+2026-11-12T14:45:00Z,JourneyService,getJourneyById,1267,0,24.0,36.3,42.2
+2026-11-12T14:45:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1267,3,363.9,494.7,560.4
+2026-11-12T14:45:00Z,easyTravel Customer Frontend,/orange.jsf,11469,3,38.0,63.9,81.4
+2026-11-12T14:46:00Z,BookingService,storeBooking,1298,1,356.9,488.2,561.8
+2026-11-12T14:46:00Z,CreditCardValidation,validateCreditCard,1298,1,313.4,445.8,507.3
+2026-11-12T14:46:00Z,JourneyService,getJourneyById,1298,0,24.3,36.4,42.0
+2026-11-12T14:46:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1298,1,368.1,500.7,571.1
+2026-11-12T14:46:00Z,easyTravel Customer Frontend,/orange.jsf,11438,8,38.0,69.3,88.2
+2026-11-12T14:47:00Z,BookingService,storeBooking,1187,0,354.6,489.8,568.6
+2026-11-12T14:47:00Z,CreditCardValidation,validateCreditCard,1187,0,310.6,448.0,525.5
+2026-11-12T14:47:00Z,JourneyService,getJourneyById,1187,0,24.1,36.1,43.6
+2026-11-12T14:47:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1187,0,365.6,500.0,578.4
+2026-11-12T14:47:00Z,easyTravel Customer Frontend,/orange.jsf,11406,2,37.5,64.2,78.1
+2026-11-12T14:48:00Z,BookingService,storeBooking,1239,3,350.8,492.2,578.3
+2026-11-12T14:48:00Z,CreditCardValidation,validateCreditCard,1239,3,309.1,445.0,534.2
+2026-11-12T14:48:00Z,JourneyService,getJourneyById,1239,0,24.0,37.4,44.2
+2026-11-12T14:48:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1239,3,362.0,504.0,589.9
+2026-11-12T14:48:00Z,easyTravel Customer Frontend,/orange.jsf,11106,4,40.2,69.5,87.1
+2026-11-12T14:49:00Z,BookingService,storeBooking,1218,2,357.2,499.1,572.0
+2026-11-12T14:49:00Z,CreditCardValidation,validateCreditCard,1218,2,314.2,456.2,529.3
+2026-11-12T14:49:00Z,JourneyService,getJourneyById,1218,0,23.8,36.3,43.2
+2026-11-12T14:49:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1218,2,367.6,513.2,582.5
+2026-11-12T14:49:00Z,easyTravel Customer Frontend,/orange.jsf,11134,2,38.6,66.3,75.7
+2026-11-12T14:50:00Z,BookingService,storeBooking,1160,1,350.0,483.8,544.0
+2026-11-12T14:50:00Z,CreditCardValidation,validateCreditCard,1160,1,306.5,440.1,502.4
+2026-11-12T14:50:00Z,JourneyService,getJourneyById,1160,0,24.0,37.0,43.4
+2026-11-12T14:50:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1160,1,360.8,496.0,553.1
+2026-11-12T14:50:00Z,easyTravel Customer Frontend,/orange.jsf,11030,6,36.1,69.3,86.8
+2026-11-12T14:51:00Z,BookingService,storeBooking,1190,0,354.5,490.7,551.7
+2026-11-12T14:51:00Z,CreditCardValidation,validateCreditCard,1190,0,312.1,450.0,511.5
+2026-11-12T14:51:00Z,JourneyService,getJourneyById,1190,0,24.1,36.7,43.6
+2026-11-12T14:51:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1190,0,365.8,501.1,562.4
+2026-11-12T14:51:00Z,easyTravel Customer Frontend,/orange.jsf,10852,7,38.2,66.5,80.2
+2026-11-12T14:52:00Z,BookingService,storeBooking,1161,1,356.7,480.9,551.4
+2026-11-12T14:52:00Z,CreditCardValidation,validateCreditCard,1161,1,313.1,438.6,512.9
+2026-11-12T14:52:00Z,JourneyService,getJourneyById,1161,0,23.8,35.4,42.7
+2026-11-12T14:52:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1161,1,367.6,490.1,564.7
+2026-11-12T14:52:00Z,easyTravel Customer Frontend,/orange.jsf,11024,7,38.3,68.1,82.4
+2026-11-12T14:53:00Z,BookingService,storeBooking,1156,1,358.8,494.2,562.0
+2026-11-12T14:53:00Z,CreditCardValidation,validateCreditCard,1156,1,316.3,450.5,514.7
+2026-11-12T14:53:00Z,JourneyService,getJourneyById,1156,0,23.9,35.6,41.9
+2026-11-12T14:53:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1156,1,370.1,504.0,573.6
+2026-11-12T14:53:00Z,easyTravel Customer Frontend,/orange.jsf,10808,5,39.8,64.6,91.0
+2026-11-12T14:54:00Z,BookingService,storeBooking,1178,1,354.9,488.4,553.8
+2026-11-12T14:54:00Z,CreditCardValidation,validateCreditCard,1178,1,311.9,444.4,510.7
+2026-11-12T14:54:00Z,JourneyService,getJourneyById,1178,0,23.8,35.4,42.6
+2026-11-12T14:54:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1178,1,366.1,498.7,562.0
+2026-11-12T14:54:00Z,easyTravel Customer Frontend,/orange.jsf,10439,3,37.6,66.2,83.5
+2026-11-12T14:55:00Z,BookingService,storeBooking,1150,0,353.2,481.4,564.0
+2026-11-12T14:55:00Z,CreditCardValidation,validateCreditCard,1150,0,311.3,438.8,517.8
+2026-11-12T14:55:00Z,JourneyService,getJourneyById,1150,0,23.9,36.4,43.2
+2026-11-12T14:55:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1150,0,364.7,491.4,575.6
+2026-11-12T14:55:00Z,easyTravel Customer Frontend,/orange.jsf,10435,3,38.2,66.0,80.3
+2026-11-12T14:56:00Z,BookingService,storeBooking,1124,1,351.4,484.0,554.8
+2026-11-12T14:56:00Z,CreditCardValidation,validateCreditCard,1124,1,309.5,439.6,511.2
+2026-11-12T14:56:00Z,JourneyService,getJourneyById,1124,0,23.7,36.3,43.5
+2026-11-12T14:56:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1124,1,362.1,496.2,562.6
+2026-11-12T14:56:00Z,easyTravel Customer Frontend,/orange.jsf,10214,6,38.9,65.7,87.9
+2026-11-12T14:57:00Z,BookingService,storeBooking,1073,0,353.3,493.8,566.7
+2026-11-12T14:57:00Z,CreditCardValidation,validateCreditCard,1073,0,309.7,447.9,525.3
+2026-11-12T14:57:00Z,JourneyService,getJourneyById,1073,0,24.1,37.3,45.6
+2026-11-12T14:57:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1073,0,364.6,504.7,578.3
+2026-11-12T14:57:00Z,easyTravel Customer Frontend,/orange.jsf,10251,6,39.7,68.7,79.9
+2026-11-12T14:58:00Z,BookingService,storeBooking,1107,1,352.7,480.0,557.5
+2026-11-12T14:58:00Z,CreditCardValidation,validateCreditCard,1107,1,309.3,434.3,516.0
+2026-11-12T14:58:00Z,JourneyService,getJourneyById,1107,0,23.8,36.0,41.7
+2026-11-12T14:58:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1107,1,363.6,492.6,571.4
+2026-11-12T14:58:00Z,easyTravel Customer Frontend,/orange.jsf,10149,2,37.3,65.7,85.3
+2026-11-12T14:59:00Z,BookingService,storeBooking,1099,1,354.4,489.4,560.2
+2026-11-12T14:59:00Z,CreditCardValidation,validateCreditCard,1099,1,313.0,448.4,521.4
+2026-11-12T14:59:00Z,JourneyService,getJourneyById,1099,0,23.9,35.7,41.4
+2026-11-12T14:59:00Z,easyTravel Customer Frontend,/orange-booking-payment.jsf,1099,1,365.6,501.5,573.0
+2026-11-12T14:59:00Z,easyTravel Customer Frontend,/orange.jsf,9903,5,38.0,63.9,84.1

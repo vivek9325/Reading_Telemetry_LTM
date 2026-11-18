@@ -1,0 +1,164 @@
+{
+  "name": "easyTravel - RED for one service (Lab 1.2)",
+  "type": "dashboard",
+  "content": {
+    "version": 21,
+    "variables": [
+      {
+        "version": 2,
+        "key": "Service",
+        "type": "query",
+        "visible": true,
+        "editable": true,
+        "multiple": false,
+        "input": "timeseries r = sum(dt.service.request.count), by: {dt.service.name}\n| fields dt.service.name\n| sort dt.service.name asc"
+      }
+    ],
+    "tiles": {
+      "0": {
+        "type": "markdown",
+        "content": "# RED: rate, errors, duration\nPick a service at the top. Response times are converted from microseconds to milliseconds."
+      },
+      "1": {
+        "type": "data",
+        "title": "Rate: requests per minute",
+        "query": "timeseries requests_per_min = sum(dt.service.request.count, rate: 1m), filter: {dt.service.name == $Service}",
+        "visualization": "lineChart",
+        "visualizationSettings": {},
+        "querySettings": {}
+      },
+      "2": {
+        "type": "data",
+        "title": "Errors: failure rate (%)",
+        "query": "timeseries {requests = sum(dt.service.request.count), failures = sum(dt.service.request.failure_count)}, filter: {dt.service.name == $Service}\n| fieldsAdd failure_rate_pct = failures[] * 100.0 / requests[]\n| fieldsRemove requests, failures",
+        "visualization": "lineChart",
+        "visualizationSettings": {
+          "thresholds": [
+            {
+              "id": 1,
+              "field": "",
+              "title": "",
+              "isEnabled": true,
+              "rules": [
+                {
+                  "id": 0,
+                  "color": {
+                    "Default": "var(--dt-colors-charts-status-ideal-default, #2f6862)"
+                  },
+                  "comparator": ">=",
+                  "label": "OK",
+                  "value": 0
+                },
+                {
+                  "id": 1,
+                  "color": {
+                    "Default": "var(--dt-colors-charts-status-warning-default, #eea53c)"
+                  },
+                  "comparator": ">=",
+                  "label": "Warning",
+                  "value": 1
+                },
+                {
+                  "id": 2,
+                  "color": {
+                    "Default": "var(--dt-colors-charts-status-critical-default, #c62239)"
+                  },
+                  "comparator": ">=",
+                  "label": "Critical",
+                  "value": 5
+                }
+              ]
+            }
+          ]
+        },
+        "querySettings": {}
+      },
+      "3": {
+        "type": "data",
+        "title": "Duration: response time percentiles (ms)",
+        "query": "timeseries {p50 = percentile(dt.service.request.response_time, 50), p95 = percentile(dt.service.request.response_time, 95), p99 = percentile(dt.service.request.response_time, 99)}, filter: {dt.service.name == $Service}\n| fieldsAdd p50_ms = p50[] / 1000, p95_ms = p95[] / 1000, p99_ms = p99[] / 1000\n| fieldsRemove p50, p95, p99",
+        "visualization": "lineChart",
+        "visualizationSettings": {
+          "thresholds": [
+            {
+              "id": 1,
+              "field": "",
+              "title": "",
+              "isEnabled": true,
+              "rules": [
+                {
+                  "id": 0,
+                  "color": {
+                    "Default": "var(--dt-colors-charts-status-ideal-default, #2f6862)"
+                  },
+                  "comparator": ">=",
+                  "label": "OK",
+                  "value": 0
+                },
+                {
+                  "id": 1,
+                  "color": {
+                    "Default": "var(--dt-colors-charts-status-warning-default, #eea53c)"
+                  },
+                  "comparator": ">=",
+                  "label": "Warning",
+                  "value": 500
+                },
+                {
+                  "id": 2,
+                  "color": {
+                    "Default": "var(--dt-colors-charts-status-critical-default, #c62239)"
+                  },
+                  "comparator": ">=",
+                  "label": "Critical",
+                  "value": 1000
+                }
+              ]
+            }
+          ]
+        },
+        "querySettings": {}
+      },
+      "4": {
+        "type": "data",
+        "title": "Endpoints of the service",
+        "query": "fetch spans\n| filter request.is_root_span == true and dt.service.name == $Service\n| summarize {requests = count(), failures = countIf(request.is_failed == true), p95 = percentile(duration, 95)}, by: {endpoint.name}\n| fieldsAdd failure_rate_pct = failures * 100.0 / requests\n| sort p95 desc",
+        "visualization": "table",
+        "visualizationSettings": {},
+        "querySettings": {}
+      }
+    },
+    "layouts": {
+      "0": {
+        "x": 0,
+        "y": 0,
+        "w": 24,
+        "h": 2
+      },
+      "1": {
+        "x": 0,
+        "y": 2,
+        "w": 12,
+        "h": 6
+      },
+      "2": {
+        "x": 12,
+        "y": 2,
+        "w": 12,
+        "h": 6
+      },
+      "3": {
+        "x": 0,
+        "y": 8,
+        "w": 24,
+        "h": 7
+      },
+      "4": {
+        "x": 0,
+        "y": 15,
+        "w": 24,
+        "h": 5
+      }
+    }
+  }
+}

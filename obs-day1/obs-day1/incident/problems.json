@@ -1,0 +1,225 @@
+[
+  {
+    "display_id": "P-26111203",
+    "event.name": "CPU saturation",
+    "event.category": "RESOURCE",
+    "event.status": "CLOSED",
+    "event.start": "2026-11-12T03:10:00Z",
+    "event.end": "2026-11-12T03:42:00Z",
+    "root_cause_entity_name": "batch-01",
+    "root_cause_entity_type": "HOST",
+    "affected_entities": [
+      {
+        "type": "HOST",
+        "name": "batch-01"
+      },
+      {
+        "type": "PROCESS_GROUP",
+        "name": "report-generator"
+      }
+    ],
+    "dt.davis.affected_users_count": 0,
+    "affected_services": [],
+    "dt.davis.is_duplicate": false,
+    "dt.davis.is_frequent_event": true,
+    "evidence": [
+      "CPU usage 97 % on batch-01 for 32 minutes",
+      "report-generator nightly job running (starts 03:00 daily)"
+    ],
+    "events": [
+      {
+        "category": "RESOURCE",
+        "name": "CPU saturation",
+        "entity": "batch-01"
+      }
+    ]
+  },
+  {
+    "display_id": "P-26111205",
+    "event.name": "Process unavailable",
+    "event.category": "AVAILABILITY",
+    "event.status": "CLOSED",
+    "event.start": "2026-11-12T09:12:00Z",
+    "event.end": "2026-11-12T09:15:00Z",
+    "root_cause_entity_name": "easyTravel Business Backend (app-02)",
+    "root_cause_entity_type": "PROCESS_GROUP_INSTANCE",
+    "affected_entities": [
+      {
+        "type": "PROCESS_GROUP_INSTANCE",
+        "name": "easyTravel Business Backend (app-02)"
+      }
+    ],
+    "dt.davis.affected_users_count": 0,
+    "affected_services": [],
+    "dt.davis.is_duplicate": false,
+    "dt.davis.is_frequent_event": false,
+    "evidence": [
+      "Process easyTravel Business Backend on app-02 exited with code 137 at 09:12:04",
+      "easyTravel Business Backend (app-01) served all requests: failure rate 0.0 %",
+      "systemd restarted the process at 09:14:51"
+    ],
+    "events": [
+      {
+        "category": "AVAILABILITY",
+        "name": "Process unavailable",
+        "entity": "easyTravel Business Backend (app-02)"
+      }
+    ]
+  },
+  {
+    "display_id": "P-26111207",
+    "event.name": "Failure rate increase",
+    "event.category": "ERROR",
+    "event.status": "CLOSED",
+    "event.start": "2026-11-12T14:00:15Z",
+    "event.end": "2026-11-12T14:44:30Z",
+    "root_cause_entity_name": "CreditCardValidation",
+    "root_cause_entity_type": "SERVICE",
+    "affected_entities": [
+      {
+        "type": "SERVICE",
+        "name": "CreditCardValidation"
+      },
+      {
+        "type": "SERVICE",
+        "name": "BookingService"
+      },
+      {
+        "type": "SERVICE",
+        "name": "easyTravel Customer Frontend"
+      }
+    ],
+    "dt.davis.affected_users_count": 3412,
+    "affected_services": [
+      "easyTravel Customer Frontend",
+      "BookingService",
+      "CreditCardValidation"
+    ],
+    "dt.davis.is_duplicate": false,
+    "dt.davis.is_frequent_event": false,
+    "evidence": [
+      "Deployment CreditCardValidation 2.8.0 at 13:58:02, 2 minutes before the problem",
+      "Configuration change: maximum-pool-size 50 -> 10",
+      "CreditCardValidation validateCreditCard median 2.18 s instead of 0.31 s",
+      "easyTravel Customer Frontend /orange-booking-payment.jsf failure rate 6.4 % instead of 0.1 %",
+      "3,866 bookings failed between 13:58 and 14:42"
+    ],
+    "events": [
+      {
+        "category": "CUSTOM",
+        "name": "CreditCardValidation connection pool: threads waiting above 5 for 2 minutes",
+        "entity": "CreditCardValidation"
+      },
+      {
+        "category": "SLOWDOWN",
+        "name": "Response time degradation",
+        "entity": "CreditCardValidation"
+      },
+      {
+        "category": "SLOWDOWN",
+        "name": "Response time degradation",
+        "entity": "BookingService"
+      },
+      {
+        "category": "ERROR",
+        "name": "Failure rate increase",
+        "entity": "easyTravel Customer Frontend"
+      }
+    ]
+  },
+  {
+    "display_id": "P-26111208",
+    "event.name": "Failure rate increase",
+    "event.category": "ERROR",
+    "event.status": "CLOSED",
+    "event.start": "2026-11-12T14:00:40Z",
+    "event.end": "2026-11-12T14:44:30Z",
+    "root_cause_entity_name": "CreditCardValidation",
+    "root_cause_entity_type": "SERVICE",
+    "affected_entities": [
+      {
+        "type": "SERVICE",
+        "name": "easyTravel Customer Frontend"
+      }
+    ],
+    "dt.davis.affected_users_count": 3412,
+    "affected_services": [
+      "easyTravel Customer Frontend"
+    ],
+    "dt.davis.is_duplicate": true,
+    "dt.davis.is_frequent_event": false,
+    "evidence": [
+      "Duplicate of P-26111207"
+    ],
+    "events": []
+  },
+  {
+    "display_id": "P-26111211",
+    "event.name": "Response time degradation",
+    "event.category": "SLOWDOWN",
+    "event.status": "ACTIVE",
+    "event.start": "2026-11-12T16:02:00Z",
+    "event.end": null,
+    "root_cause_entity_name": "web-01",
+    "root_cause_entity_type": "HOST",
+    "affected_entities": [
+      {
+        "type": "SERVICE",
+        "name": "easyTravel Customer Frontend"
+      },
+      {
+        "type": "HOST",
+        "name": "web-01"
+      }
+    ],
+    "dt.davis.affected_users_count": 860,
+    "affected_services": [
+      "easyTravel Customer Frontend"
+    ],
+    "dt.davis.is_duplicate": false,
+    "dt.davis.is_frequent_event": false,
+    "evidence": [
+      "easyTravel Customer Frontend /orange.jsf median 410 ms instead of 38 ms",
+      "CPU usage 96 % on web-01 (4 cores), load per core 2.3",
+      "Process image-resizer started on web-01 at 16:00:31"
+    ],
+    "events": [
+      {
+        "category": "RESOURCE",
+        "name": "CPU saturation",
+        "entity": "web-01"
+      },
+      {
+        "category": "SLOWDOWN",
+        "name": "Response time degradation",
+        "entity": "easyTravel Customer Frontend"
+      }
+    ]
+  },
+  {
+    "display_id": "P-26111212",
+    "event.name": "Bookings per minute below 600",
+    "event.category": "CUSTOM",
+    "event.status": "ACTIVE",
+    "event.start": "2026-11-12T16:05:00Z",
+    "event.end": null,
+    "root_cause_entity_name": null,
+    "root_cause_entity_type": null,
+    "affected_entities": [],
+    "dt.davis.affected_users_count": 0,
+    "affected_services": [],
+    "dt.davis.is_duplicate": false,
+    "dt.davis.is_frequent_event": false,
+    "evidence": [
+      "Business metric bookings.created per minute: 512 (threshold 600)",
+      "Custom alert from a metric event on business events"
+    ],
+    "events": [
+      {
+        "category": "CUSTOM",
+        "name": "Bookings per minute below 600",
+        "entity": "easyTravel"
+      }
+    ]
+  }
+]

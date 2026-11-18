@@ -1,0 +1,35 @@
+<!doctype html><html><head><meta charset='utf-8'><title>easyTravel sample problem cards</title><style>
+body{font:14px/1.45 system-ui,-apple-system,'Segoe UI',sans-serif;background:#f1f3f6;color:#1b2430;margin:0;padding:24px}
+h1{font-size:18px;margin:0 0 4px} .sub{color:#5b6573;margin:0 0 20px}
+.card{background:#fff;border:1px solid #d5dae1;border-radius:10px;padding:18px 22px;margin:0 0 18px;max-width:880px}
+.top{display:flex;justify-content:space-between;gap:16px} .id{color:#5b6573;font-size:12.5px} h2{margin:2px 0 0;font-size:19px}
+.st{text-align:right} h3{font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;color:#5b6573;margin:16px 0 6px}
+p{margin:0} .t{color:#5b6573} .chip{display:inline-block;border:1px solid var(--c);color:var(--c);background:color-mix(in srgb,var(--c) 10%,white);border-radius:999px;padding:0 9px;font-size:12px;font-weight:600;margin-right:8px}
+.chip.big{font-size:13px;padding:2px 12px;margin:0 0 6px} .rc{background:#f1f3f6;border-radius:6px;padding:8px 12px} .rc.none{color:#5b6573;font-style:italic}
+ul{margin:6px 0 0;padding-left:20px} .evs{list-style:none;padding:0} .evs li{margin:4px 0} .flag{background:#fff3d6;border-radius:4px;padding:0 6px;font-size:12px;margin-left:6px}
+</style></head><body><h1>easyTravel: sample problem cards, 12 November 2026</h1><p class='sub'>Training material for Lab 1.5. Simplified from the fields of dt.davis.problems; all data is invented.</p><section class='card' id='P-26111203'>
+<div class='top'><div><div class='id'>P-26111203 &middot; 12 Nov 2026, opened 03:10 UTC</div><h2>CPU saturation</h2></div>
+<div class='st'><span class='chip big' style='--c:#d97706'>Resource</span><div class='t'>Closed after 32 min</div></div></div>
+<h3>Impact</h3><p><b>0</b> affected users &middot; affected: batch-01 <span class='t'>(host)</span>, report-generator <span class='t'>(process group)</span> <span class='flag'>frequent issue</span></p>
+<h3>Root cause</h3><div class='rc'><b>batch-01</b> <span class='t'>(host)</span></div><ul class='ev'><li>CPU usage 97 % on batch-01 for 32 minutes</li><li>report-generator nightly job running (starts 03:00 daily)</li></ul>
+<h3>Events</h3><ul class='evs'><li><span class='chip' style='--c:#d97706'>Resource</span>CPU saturation <span class='t'>on batch-01</span></li></ul></section><section class='card' id='P-26111205'>
+<div class='top'><div><div class='id'>P-26111205 &middot; 12 Nov 2026, opened 09:12 UTC</div><h2>Process unavailable</h2></div>
+<div class='st'><span class='chip big' style='--c:#c62239'>Availability</span><div class='t'>Closed after 3 min</div></div></div>
+<h3>Impact</h3><p><b>0</b> affected users &middot; affected: easyTravel Business Backend (app-02) <span class='t'>(process group instance)</span></p>
+<h3>Root cause</h3><div class='rc'><b>easyTravel Business Backend (app-02)</b> <span class='t'>(process group instance)</span></div><ul class='ev'><li>Process easyTravel Business Backend on app-02 exited with code 137 at 09:12:04</li><li>easyTravel Business Backend (app-01) served all requests: failure rate 0.0 %</li><li>systemd restarted the process at 09:14:51</li></ul>
+<h3>Events</h3><ul class='evs'><li><span class='chip' style='--c:#c62239'>Availability</span>Process unavailable <span class='t'>on easyTravel Business Backend (app-02)</span></li></ul></section><section class='card' id='P-26111207'>
+<div class='top'><div><div class='id'>P-26111207 &middot; 12 Nov 2026, opened 14:00 UTC</div><h2>Failure rate increase</h2></div>
+<div class='st'><span class='chip big' style='--c:#c62239'>Error</span><div class='t'>Closed after 44 min</div></div></div>
+<h3>Impact</h3><p><b>3,412</b> affected users &middot; affected: CreditCardValidation <span class='t'>(service)</span>, BookingService <span class='t'>(service)</span>, easyTravel Customer Frontend <span class='t'>(service)</span></p>
+<h3>Root cause</h3><div class='rc'><b>CreditCardValidation</b> <span class='t'>(service)</span></div><ul class='ev'><li>Deployment CreditCardValidation 2.8.0 at 13:58:02, 2 minutes before the problem</li><li>Configuration change: maximum-pool-size 50 -&gt; 10</li><li>CreditCardValidation validateCreditCard median 2.18 s instead of 0.31 s</li><li>easyTravel Customer Frontend /orange-booking-payment.jsf failure rate 6.4 % instead of 0.1 %</li><li>3,866 bookings failed between 13:58 and 14:42</li></ul>
+<h3>Events</h3><ul class='evs'><li><span class='chip' style='--c:#6d28d9'>Custom</span>CreditCardValidation connection pool: threads waiting above 5 for 2 minutes <span class='t'>on CreditCardValidation</span></li><li><span class='chip' style='--c:#d97706'>Slowdown</span>Response time degradation <span class='t'>on CreditCardValidation</span></li><li><span class='chip' style='--c:#d97706'>Slowdown</span>Response time degradation <span class='t'>on BookingService</span></li><li><span class='chip' style='--c:#c62239'>Error</span>Failure rate increase <span class='t'>on easyTravel Customer Frontend</span></li></ul></section><section class='card' id='P-26111211'>
+<div class='top'><div><div class='id'>P-26111211 &middot; 12 Nov 2026, opened 16:02 UTC</div><h2>Response time degradation</h2></div>
+<div class='st'><span class='chip big' style='--c:#d97706'>Slowdown</span><div class='t'>Active, still open at 16:30</div></div></div>
+<h3>Impact</h3><p><b>860</b> affected users &middot; affected: easyTravel Customer Frontend <span class='t'>(service)</span>, web-01 <span class='t'>(host)</span></p>
+<h3>Root cause</h3><div class='rc'><b>web-01</b> <span class='t'>(host)</span></div><ul class='ev'><li>easyTravel Customer Frontend /orange.jsf median 410 ms instead of 38 ms</li><li>CPU usage 96 % on web-01 (4 cores), load per core 2.3</li><li>Process image-resizer started on web-01 at 16:00:31</li></ul>
+<h3>Events</h3><ul class='evs'><li><span class='chip' style='--c:#d97706'>Resource</span>CPU saturation <span class='t'>on web-01</span></li><li><span class='chip' style='--c:#d97706'>Slowdown</span>Response time degradation <span class='t'>on easyTravel Customer Frontend</span></li></ul></section><section class='card' id='P-26111212'>
+<div class='top'><div><div class='id'>P-26111212 &middot; 12 Nov 2026, opened 16:05 UTC</div><h2>Bookings per minute below 600</h2></div>
+<div class='st'><span class='chip big' style='--c:#6d28d9'>Custom</span><div class='t'>Active, still open at 16:30</div></div></div>
+<h3>Impact</h3><p><b>0</b> affected users &middot; affected: none recorded</p>
+<h3>Root cause</h3><div class='rc none'>No root cause entity identified</div><ul class='ev'><li>Business metric bookings.created per minute: 512 (threshold 600)</li><li>Custom alert from a metric event on business events</li></ul>
+<h3>Events</h3><ul class='evs'><li><span class='chip' style='--c:#6d28d9'>Custom</span>Bookings per minute below 600 <span class='t'>on easyTravel</span></li></ul></section></body></html>

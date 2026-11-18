@@ -1,0 +1,4 @@
+# Created when you run the scripts
+__pycache__/
+# Never commit tokens or environment files
+*.env
